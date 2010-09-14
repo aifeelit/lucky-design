@@ -1,0 +1,378 @@
+
+#breadcrumbs.locationBarText {
+ display:none;
+}
+
+/* remove "More Spotlight Archives" link */
+body#home ul.pubLinks, body#primaryLRC ul.pubLinks {
+  display:none;
+}
+.navListTop {
+  line-height: 1.1em;
+}
+.navList {
+  padding: 0 0 0 1em;
+  line-height: 1.1em;
+}
+navListItem li, .navListItem a:link, .navListItem a:visited {
+  text-decoration: none; 
+  color: #FFFFFF;
+}
+.navListItem a:hover {
+  color: #FFCF8C;
+}
+.navListItem.open.current strong {
+  /*color: #E0CCE0;*/
+  font-weight:bold;
+}
+#navmain li {
+  padding: 0 1px 0 4px;
+}
+#navglobal li {
+  padding: 0 14px 0 15px;
+}
+
+.newsItemName a {
+  line-height: 2.0;
+}
+.newsItemDesc {
+  line-height: 1.5;
+  font-size: 0.950em;
+}
+.newsItemDate {
+  display:none;
+}
+
+/* google search appliance */
+#search {
+  float: right;
+  height: 39px;
+}
+#search input{
+  border: 1px solid #5281B5;
+  height: 17px;
+  padding: 0 2px;
+  margin: 10px 0 0 0;
+  width: 120px;
+  vertical-align: top;
+}
+input#searchButton {
+  background: transparent url("/stylesheets/admissions/images/search.png") center no-repeat;
+  border:0 none;
+  width:27px;
+  height:39px;
+  line-height:39px;
+  margin:0;
+  padding:0 0 5px 0;
+  color: transparent;
+  color: #94BFE5;  /* IE hack to remove word "search" */
+  font-size:0;   /* IE hack to remove word "search" */
+  text-align:left;  /* IE hack to remove word "search" */
+}
+
+#content .contentHead h2.pageTitle {
+  font-size: 2.1538em;
+  line-height: 1.107;
+  margin-bottom: .5714em;
+  letter-spacing: 0;
+}
+#meat #content .imageChunk {
+  float:right;
+  width:30%;
+}
+#meat #content .imageChunk img,
+#meat .contentPost #blog.publication .item .fullPost .tnImage img  {
+  border:thin solid silver;
+  padding:3px;
+  margin:0 0 5px 0;
+}
+#meat #content .imageChunk .tnDesc a,
+#meat #content .imageChunk p,
+#meat .contentPost #blog.publication .item .fullPost .tnDesc a  {
+  color:#777777;
+  font-style:italic;
+  font-size: 0.95em;
+  line-height:1.25;
+}
+
+/* publication */
+#meat .contentPost #blog.publication .persistent {
+  display: none;
+}
+#meat .contentPost #blog.publication .moduleNav ul.posts, 
+#meat .contentPost #blog.publication .item .fullPost .relatedItems ul {
+  list-style-type: none;
+  margin: 0 1em 2em 0;
+}
+#meat .contentPost #blog.publication .moduleNav ul.posts li.post{
+  border-top: none; 
+  font-size: 1.0em;
+  padding:0 0 10px 0;
+}
+#meat .contentPost #blog.publication .moduleNav ul.posts li.post h4.title{
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 0 0 0.5em 0;
+}
+#meat .contentPost #blog.publication .moduleNav ul.posts li.post .date {
+  display: none;
+  /*font-size: 0.95em;*/
+  /*margin: 0 0 0.5em 0;*/
+}
+#meat .contentPost #blog.publication .moduleNav ul.posts li.post ul.links {
+  /*display: none;*/
+}
+
+/* publication story */
+#meat .contentPost #blog.publication .item .fullPost .primaryContent h3 {
+  font-size: 1.5em;
+}
+#meat .contentPost #blog.publication .item .fullPost .primaryContent .date {
+  font-size: 0.95em;
+  margin: 0 0 1.5em 0;
+}
+#meat .contentPost #blog.publication .moduleNav .pagination.above,
+#meat .contentPost #blog.publication .item .categories,
+#meat .contentPost #blog.publication .item .fullPost h3.postTitle,
+#meat .contentPost #blog.publication .item .fullPost .date,
+#footer .module1 #maintained, 
+#footer .module2 .editDiv, 
+#meat .contentPost #blog.publication .feedLink,
+#footer .module2 p#footerLoginLink  {
+  display: none;
+}
+body#spotlightarchive #meat .contentPost #blog.publication .moduleNav ul.posts li.post .desc,
+body#spotlightarchive #meat .contentPost #blog.publication .moduleNav ul.posts li.post .links, 
+body#spotlightarchive #meat .contentPost .back {
+  display: none;
+}
+body#spotlightarchive #meat .contentPost #blog.publication .moduleNav ul.posts li.post {
+  font-size: 0.95em;
+  padding:0 0 0 0;
+}
+body#spotlightarchive #meat .contentPost #blog.publication .moduleNav ul.posts li.post .title {
+  font-weight: normal;
+}
+body#spotlightarchive #meat .contentPost #blog.publication .moduleNav ul.sections {
+ list-style-type: none; 
+}
+
+/* related links on section pages */
+.inner .body .content .supplemental a:link,
+.inner .body .content .supplemental a:visited {
+  color:#75AFFF;
+  text-decoration:underline;
+}
+.inner .body .content .supplemental a:hover {
+  color:#FFB347;
+}
+/* figure includes image and caption */
+.figure {
+  color:#777777;
+  float:right;
+  font-style:italic;
+  line-height: 1.2em;
+  margin:8px 8px 8px 10px;
+  text-align:center;
+}
+.figure img {
+  border:1px solid silver;
+  padding:3px;
+  margin:0;
+}
+.highslide-caption {
+  color:#555555;
+  font-family:inherit;
+  font-style:italic;
+  text-align:center;
+}
+
+/* username */
+#username {
+ font-family:verdana,arial,helvetica,sansserif;
+ background:#99aacc;
+ background:#7499CD;
+ color:#003388;
+ padding:2px 5px 2px 15px;
+}
+#username a {
+ font-size:1.40em;
+ line-height:0.5;
+ color:#eee;
+ text-decoration: none;
+}
+#username a:link,
+#username a:visited,
+#username a:hover,
+#username a:active {
+ color:#d7d7c7;
+}
+#username a:hover {
+ color:#ffe8b8;
+ /*text-decoration:underline;*/
+}
+
+body.home div.relatedPub div.moduleNav {
+/* IE hack to align spotlights, hightlights, upcoming events on home page */
+  margin: 0px 0 -18px 0;
+}
+body.home div.relatedPub div.moduleNav li{
+/* IE hack to align spotlights, hightlights, upcoming events on home page */
+  list-style:none;
+  list-style-image:none;
+  margin: 0;
+}
+/* spotlights on the admissions home page */
+ul.pubLinks {
+  display:none;
+}
+.supplemental.block.block-1 img,
+.supplemental.block.block-2 img {
+  width: 75px;
+  margin-right: 10px;
+  background: #FFFFFF;
+}
+/* events on the admissions home page */
+.sidebar .supplemental.block.block-3.events {
+  padding:0;
+}
+.supplemental.block.block-3.events div#miniCal,
+.supplemental.block.block-3.events .blurbs {
+  background: transparent;
+  border: none;
+  line-height:1;
+  margin: 0 0 30px -5px;
+  padding: 0;
+}
+.supplemental.block.block-3.events .blurbs {
+  margin: 0 0 30px 0;
+}
+.supplemental.block.block-3.events div#miniCal div#events h4, 
+.supplemental.block.block-3.events div.blurbs h5 {
+  border: none;
+  font-size: 110%;
+  font-weight: bold;
+  margin: 0;
+}
+.supplemental.block.block-3.events div#miniCal div#events ul, 
+.supplemental.block.block-3.events div.blurbs ul {
+  font-size: 100%;
+  margin: 4px 0px 4px 8px;
+}
+.supplemental.block.block-3.events div#miniCal div#events li, 
+.supplemental.block.block-3.events div.blurbs li {
+  list-style: none;
+  list-style-image: none;
+}
+.supplemental.block.block-3.events div.blurbs li {
+  margin:5px 0 10px -7px;
+}
+.supplemental.block.block-3.events div#miniCal div.foot p.more {
+  margin: 20px 8px 0px 8px;
+}
+
+/* quotes on admissions home page */
+div#quotes {
+  padding-top: 10px;
+}
+div#quotes ul {
+  margin-left: 0;
+}
+div#quotes li {
+  list-style-image: none;
+  list-style: none;
+}
+.body .content .highlight .openingQuote {
+/* turn off dispaly of opening quote on admissions home page */
+  display: none;
+}
+
+.body {
+  /*background: #011F4F url(images/background940x1.jpg) repeat scroll left top;*/
+  background: #08111A url(images/background.jpg) no-repeat scroll left top;
+}
+.main-nav ul.nav {
+  background: transparent url(images/nav-sprite-3b.png) top left no-repeat;
+}
+.main-nav .nav li a {
+  background:transparent url(images/nav-sprite-3b.png) no-repeat scroll 0 -78px;
+}
+.banner .info h2 {
+  background: #7499CD url(images/nav-sprite-3b.png) -795px 0 no-repeat;
+}
+.banner .info .rowOne {
+  background: transparent url(images/nav-sprite-3b.png) -896px 0 no-repeat;
+}
+.banner .info .rowTwo {
+  background: transparent url(images/nav-sprite-3b.png) -896px -33px no-repeat;
+}
+.banner .info .nav li a:hover {
+  background: transparent url(images/nav-sprite-3b.png) 0 0 no-repeat;
+}
+
+.sidebar h2 {
+  font-family:  Arial, sans-serif;
+  font-size: 0.75em;
+  font-weight: bold;
+  letter-spacing: 0;
+}
+.sidebar .block h2 {
+  font-family: Futura, Century Gothic, AppleGothic, Arial, sans-serif;
+  font-weight: normal;
+  letter-spacing: .05em;
+}
+
+/*Forms -- css for Reason/Thor generated forms -sls
+*/
+#disco_form {
+	padding-bottom:15px;
+  	margin-bottom:5px;
+  	background-color: #E3EDFF;
+}
+
+#disco_form table.thorTable{
+	width:90%;
+	margin:6px;
+}
+
+table.thorTable tbody th, table.thorTable tbody td {
+	padding: 1px 0px 1px 0px;
+}
+    
+table.thorTable textarea{
+	width:80%;
+	height:75px;
+	border-top-style: inset;
+	border-top-width: 2px;
+	border-right: 2px solid silver;
+	border-bottom: 1px solid silver;
+	border-left: 1px solid silver;
+	margin: 5px;
+}
+
+div.checkBoxGroup td{
+}
+
+table.thorTable div.checkBoxGroup td label {
+        position: relative;
+        top: 1px;
+        left: 3px;
+}
+table.thorTable div.radioButtons td label {
+        position: relative;
+        top: 1px;
+        left: 3px;
+}
+
+#requiredtextRow .td.words {
+}
+
+table.thorTable td.words {
+	padding: 0.5em;
+	vertical-align: top;
+}
+
+tr#discoSubmitRow input {
+	margin-top: 15px;
+}
+

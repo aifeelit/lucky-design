@@ -1,0 +1,13 @@
+header.global {
+ height:54px;
+}
+#nav-search {
+ height:42px; 
+}
+
+
+/* /// Group - Modular Float Management \\\ */
+.group {
+ height:1%;	
+}
+/* \\\ Group - Modular Float Management /// */

@@ -1,0 +1,1359 @@
+/*-----------------------------------
+Filename: master.css
+Title: Master Style Sheet
+Author: Faust Gertz, Faust@LeeMarvin.com
+Description: Imports other style sheets
+   -----------------------------------*/ 
+
+
+@import url(/stylesheets/luther2010/reset.css);
+
+/* /// HTML & Body \\\ */
+html, body {
+  min-height:100%;
+  background:#F7FAFC url(/images/luther2010/backgrounds/html-body-gradient-background.png) repeat-x; 
+  background-image:-moz-linear-gradient(0 1000px 90deg, #F7FAFC, #CCDEEB); /* FF3.6 */
+  background-image:-webkit-gradient(linear, 0 0, 0 1000, from(#CCDEEB), to(#F7FAFC)); /* Saf4+, Chrome */	
+  font-family:Arial, Helvetica, sans-serif;
+}
+body {
+ font-size:0.75em; /* 12px */
+ line-height:1.5em; /* 12px * 1.5em = 18px */	
+ margin:auto;
+ padding:0;
+ position:relative;
+ width:964px;
+}
+/* \\\ HTML & Body /// */
+
+
+
+/* /// Content \\\ */
+.container {
+ background:#fff;
+ margin:0 7px;
+ width:950px;
+}
+
+#home.style-01 .container,
+#home.style-02 .container {
+ background:#fff url(/images/luther2010/backgrounds/rules-two-column-page.png) no-repeat 0 9px;
+ border-bottom:1.5em solid #fff;
+}
+#home.style-01 .container {
+ background-position:0 297px;
+ border-bottom:1.5em solid #fff;
+}
+
+.content {
+ color:#191C45;	
+ float:left;	
+ width:234px; 
+}
+.content figure {
+ margin:0 0 1.5em;
+}
+.content figcaption {
+ margin:1.5em 0;
+ margin:.75em 0 2.25em; 
+}
+.content p,
+.content ol,
+.content ul {
+ margin:0 0 1.5em;	
+}
+#home.style-01 .content-primary p:first-of-type {
+ font-size:1.333333em;
+ line-height:1.6875em;
+ margin:0 0 1.6875em;
+}
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+ color:#00458A;	
+ font-size:1em;
+ font-weight:bold;
+ line-height:1.5em;
+ margin:1.25em 0 0.25em;
+}
+.content h1 {
+ font-size:2em;	/* 12px * 2em = 24px  double pica or two-line pica */
+ font-weight:normal;
+ line-height:1.5em;
+ margin:1.25em 0 0.25em;	
+}
+
+.content h2 {
+ font-size:1.75em;	/* 12px * 1.75em = 21px  double small pica or double pica */
+ font-weight:normal;
+ line-height:1.714285em;
+ margin:1.428571em 0 0.285714em;	
+}
+.content h3 {
+ font-size:1.5em;	/* 12px * 1.5em = 18px  great primer */
+ font-weight:normal;
+ line-height:2;
+ margin:1.666666em 0 .333333em;		
+}
+.content h4 {
+ font-size:1.16666666666666em;	/* 12px * 1.75em = 14px  eng­lish or augustin */
+ line-height:1.285714em;
+ margin:1.071428em 0 0.214285em;	
+}
+
+.content h1.page-title {	
+ font-size:2.333333em;	/* 12px * 2.333333em = 28px  double pica or two-line pica */
+ font-weight:normal;
+ line-height:1em;
+ margin:0 0 0.285714em;
+}
+
+#home.style-02 .content h1.page-title {	
+ font-size:2.333333em;	/* 12px * 2.333333em = 28px  double pica or two-line pica */
+ font-weight:normal;
+ line-height:1em;
+ margin:0 0 0.928571em;
+}
+
+.content-primary {
+ padding:4.5em 13px 0 14px;
+ position:relative;
+ width:453px;
+}
+.content-secondary {
+ width:234px;	
+}
+.content-tertiary {
+ padding:3em 0 0 14px;	
+ width:222px;
+}
+/* \\\ Content /// */
+
+.addthis_toolbox {
+ position:absolute;
+ right:12px;
+ top:1.5em;
+}
+
+
+
+h2.section {
+ background:#AFD0EF;	
+ border-left:7px solid #95B3CD;
+ color:#004A8B;
+ color:#003388;
+ font-size:1.666666em;
+ xfont-weight:500;
+ line-height:0.9em;
+ margin:0 0 0 -7px;
+ padding:0.9em 10px;
+ text-transform:uppercase;
+ width:214px;
+}
+
+
+nav#breadcrumbs {
+ color:#ccc;	
+ display:block;
+ font-size:0.833333em; /* 10px */
+ line-height:1.8em;
+ margin:1.8em 0;	
+ position:absolute;
+ top:0;
+ width:330px;
+}
+
+
+
+
+.content-secondary nav.banners {
+ margin:0.75em 0;	
+ overflow:hidden;	
+}
+.content-secondary nav.banners li {
+ float:none;	
+ margin:0 0 .75em;
+}
+
+
+/* ///  Header \\\ */
+header.global {
+ background-color:#144689; /* Light/Top Color */	
+ background-color:#0A2345; /* Dark/Bottom Color */	
+
+ background:#0A2345 url(/images/luther2010/backgrounds/global-gradient-background.png) repeat-x;
+
+ background-image:-moz-linear-gradient(0 60% 90deg, #0A2345, #113D78); /* FF3.6 */
+ background-image:-webkit-gradient(linear,0 0, 0 60%, from(#113D78), to(#0A2345)); /* Saf4+, Chrome */
+ border:7px solid #8DA1B4;
+ border-bottom:0;
+ border-top:0;
+ 
+ margin:0 -7px;
+ margin:0;
+
+ min-height:54px;
+ padding:18px 30px;
+ position:relative;
+ overflow:auto;
+ width:890px;	
+}
+header.global #luther-logo {
+ float:left;
+ font-size:1em;
+ margin:0;
+ padding:0 0 1em;
+ padding:0;
+ width:325px;
+}
+/* \\\ Header /// */
+
+
+/* /// Navigation \\\ */
+/* // Global Navigation \\ */
+/* / Search Navigation (Head) \ */
+#nav-search {
+ float:right;
+ line-height:1em; 
+ min-height:42px; 
+}
+#nav-search ol,
+#nav-search ul {
+ list-style:none;
+ margin:0;
+ padding:0;
+}
+#nav-search li {
+ border-left:1px solid #fff;	
+ display:inline;
+ padding:0 0.5em;
+}
+#nav-search li:first-child {
+ border-left:0;	
+ padding-left:0;
+}
+#nav-search li:last-child {
+ border-left:0;		
+ padding-right:0;
+}
+#search {
+ display:inline;	
+}
+#search label {	
+ left:-999em;	
+ xline-height:1.5em;
+ position:absolute;	
+}
+#search fieldset.overlabel-wrapper {
+ position:relative;	
+}
+#search fieldset.overlabel-wrapper label.overlabel-apply {
+ color:#0A2345;
+ font-weight:normal;
+ left:0.5em;
+ top:0.416666em;
+ z-index:1;
+}
+
+#search fieldset {
+ border:0;
+ display:inline;
+ margin:0;
+ padding:0;
+}
+#search input {
+ background:#fff;
+ border-color:#fff;
+ border-style:solid;
+ color:#0A2345;	
+ margin:0;
+ padding:0;
+ width:160px;	
+}
+#search button {
+ background:url(/images/luther2010/interface/submit.png) no-repeat center center;
+ text-indent:-999em;
+ width:24px;
+}
+
+
+
+#nav-search a,
+#nav-search a:link,
+#nav-search a:visited,
+#nav-search a:hover,
+#nav-search a:active,
+#nav-search a:focus {
+ color:#fff;
+ text-decoration:none;
+}
+/* \ Search Navigation (Head) / */
+
+/* / Audience Navigation (Head) \ */
+#nav-audience {
+ clear:right;	
+ float:right;	
+ line-height:1em;
+}
+#nav-audience ol,
+#nav-audience ul {
+ list-style:none;
+ margin:0;
+ padding:0;
+}
+#nav-audience li {
+ border-left:1px solid #fff;	
+ display:inline;
+ padding:0 0.5em;
+}
+#nav-audience li:first-child {
+ border-left:0;	
+ padding-left:0;
+}
+#nav-audience li:last-child {
+ padding-right:0;
+}
+#nav-audience a,
+#nav-audience a:link,
+#nav-audience a:visited,
+#nav-audience a:hover,
+#nav-audience a:active,
+#nav-audience a:focus {
+ color:#fff;
+ text-decoration:none;
+}
+/* \ Audience Navigation (Head) / */
+
+/* / Content Navigation (Head) \ */
+#nav-content {
+ background:#004789 url(/images/luther2010/backgrounds/nav-content-gradient-background.png) repeat-x;	
+ background-image:-moz-linear-gradient(0 45% 90deg, #004789, #2561A8); /* FF3.6 */
+ background-image:-webkit-gradient(linear,0 0,0 45%, from(#2561A8), to(#004789)); /* Saf4+, Chrome */
+ border:7px solid #96C2E9;
+ border-bottom:0;
+ border-top:0;
+ font-size:1.166666em; /* 14px */ 
+ line-height:1.285714em; /* 18px */
+ margin:0 -7px 0.642857em;
+ margin:0 0 0.642857em;
+ overflow:auto;
+ padding:0 30px;
+ width:890px;	
+}
+#nav-content ol,
+#nav-content ul {
+ list-style:none;
+ margin:0;
+ padding:0;
+}
+#nav-content li {
+ float:left;
+ font-weight:bold; 
+ padding:0.928571em 0 1em;
+ text-align:center;
+}
+#nav-content a,
+#nav-content a:link,
+#nav-content a:visited,
+#nav-content a:hover,
+#nav-content a:active,
+#nav-content a:focus {
+ color:#fff;
+ padding:0 0.25em;
+ text-decoration:none;
+}
+#nav-content li.admissions {
+ min-width:95px;	
+ text-align:left;
+}
+#nav-content li.academics {
+ min-width:105px;	
+}
+#nav-content li.library-Technology {
+ min-width:170px;	
+}
+#nav-content li.student-life {
+ min-width:110px;	
+}
+#nav-content li.athletics {
+ min-width:85px;	
+}
+#nav-content li.music {
+ min-width:65px;	
+}
+#nav-content li.giving {
+ min-width:70px;	
+}
+#nav-content li.decorah {
+ min-width:85px;	
+}
+#nav-content li.about-luther {
+ min-width:105px;
+ text-align:right;
+}
+#nav-content li.admissions a,
+#nav-content li.admissions a:link,
+#nav-content li.admissions a:visited,
+#nav-content li.admissions a:hover,
+#nav-content li.admissions a:active,
+#nav-content li.admissions a:focus,
+#nav-content li.about-luther a,
+#nav-content li.about-luther a:link,
+#nav-content li.about-luther a:visited,
+#nav-content li.about-luther a:hover,
+#nav-content li.about-luther a:active,
+#nav-content li.about-luther a:focus {
+ padding:0;	
+}
+/* \ Content Navigation (Head) / */
+
+
+#nav-section {
+ border-left:7px solid #95B3CD;	
+ background:#E5ECF0 url(/images/luther2010/backgrounds/nav-section-gradient-background.png) repeat-x;
+ background-image:-moz-linear-gradient(0 340px 90deg, #E5ECF0, #FFFFFF); /* FF3.6 */
+ background-image:-webkit-gradient(linear, 0 0, 0 340px, from(#FFFFFF), to(#E5ECF0)); /* Saf4+, Chrome */
+ margin:0 0 0 -7px;
+ padding:0 0 1.5em 9px;
+ width:224;
+}
+#nav-section ul {
+ margin:0;
+}
+#nav-section li {
+ border-bottom:0.0833333em solid #c7d8ea;
+ padding:.416666em 3px .25em;	
+}
+#nav-section li li {
+ border:none;
+ margin:0 0 0 18px;
+ padding:.416666em 0 .333333em;	
+}
+#nav-section li,
+#nav-section li a {
+ color:#006;
+ font-weight:bold;
+ text-decoration:none;
+}
+#nav-section li li,
+#nav-section li li a {
+ font-weight:normal;
+}
+
+
+/* / Site Informqtion (Foot) \ */
+nav.site-info ul,
+nav.site-info li {
+ display:inline;	
+ list-style:none;
+ margin:0;
+ padding:0;
+}
+nav.site-info li {
+ padding:0 0.5em;
+}
+nav.site-info li.about {
+ border-right:1px solid #cde;
+ border-right-color:rgba(255,255,255,0.8);
+}
+nav.site-info a,
+nav.site-info a:link,
+nav.site-info a:visited,
+nav.site-info a:hover,
+nav.site-info a:active,
+nav.site-info a:focus {
+ color:#cde; 	
+ color:rgba(255,255,255,0.8);
+ text-decoration:none;
+}
+/* \ Site Informqtion (Foot) / */
+/* \\ Global Navigation // */
+
+/* // Banner Navigation \\ */
+nav.banners {
+ clear:both;
+ float:left;
+ margin:0 7px .75em;
+ width:950px;
+}
+nav.banners ul,
+nav.banners li {
+ list-style:none;
+ margin:0;
+}
+
+nav.banners li {
+ float:left;	
+ margin:0 6px 0 0;
+ overflow:hidden;
+ width:233px;
+}
+nav.banners li a {
+ display:block;	
+}
+nav.banners li.apply {
+ margin:0;	
+ width:233px;
+}
+
+aside.banners {
+clear:both;
+float:left;
+margin:0 7px 0.75em;
+width:950px;
+}
+aside.banners ul, aside.banners li {
+list-style:none outside none;
+margin:0;
+}
+aside.banners li {
+background:url("/images/luther2010/banners/transparent/blue.png") repeat-y scroll 0 0 transparent;
+}
+aside.banners li:nth-of-type(1) {
+background:url("/images/luther2010/banners/transparent/yellow.png") repeat-y scroll 0 0 #ECA424;
+}
+aside.banners li:nth-of-type(2) {
+background:url("/images/luther2010/banners/transparent/green.png") repeat-y scroll 0 0 #40852D;
+}
+aside.banners li:nth-of-type(3) {
+background:url("/images/luther2010/banners/transparent/blue.png") repeat-y scroll 0 0 #004788;
+}
+aside.banners li:nth-of-type(4) {
+background:url("/images/luther2010/banners/transparent/red.png") repeat-y scroll 0 0 #A51C18;
+}
+aside.banners li {
+float:left;
+margin:0 6px 0 0;
+overflow:hidden;
+position:relative;
+width:233px;
+}
+aside.banners li a {
+display:block;
+}
+aside.banners li:nth-of-type(4) {
+margin:0;
+width:233px;
+}
+.content-secondary aside.banners {
+margin:0.75em 0;
+overflow:hidden;
+}
+.content-secondary aside.banners li, .content-secondary aside.banners li:nth-of-type(n) {
+float:none;
+margin:0 0 0.75em;
+width:234px;
+}
+/* \\ Banner Navigation // */
+
+
+
+
+
+/* \\\ Navigation /// */
+
+
+
+
+
+/* /// Group - Modular Float Management \\\ */
+.group:after {
+ clear:both;	
+ content:".";
+ display:block;
+ height:0;
+ visibility:hidden;
+}
+/* \\\ Group - Modular Float Management /// */
+
+
+
+/* /// Carousel \\\ */
+#carousel {
+ background:#092D4F;	
+/* border-left:7px solid #95B3CD; */
+ float:left;
+ height:288px; 
+ margin:0;
+ overflow:hidden;
+ position:relative;  
+ width:719px;
+}
+#carousel ol,
+#carousel ul {
+ list-style:none;
+ margin:0;
+ padding:0;
+}
+#slides { 
+ background:#092D4F;
+ height:288px;
+ position:relative; 
+ width:719px;
+}
+#slides .slide {
+ border-right:4px solid #092D4F;
+ border-right:4px solid #092D4F;
+ position:absolute;
+ top:0px;
+ width:475px;
+}
+#slides .slide span {
+ background:transparent url(/images/luther2010/backgrounds/white-semi-transparent-background.png);	
+ background:rgba(255, 255, 255, 0.5) none;
+ display:block;
+ height:288px; 
+ left:0px;
+ position:absolute;
+ top:0px;
+ width:475px;
+}
+#slides .slide.active span  {
+ background:none;
+ background:url(/images/luther2010/interface/red-arrow.png) no-repeat bottom right;
+}
+#slide-1 { 
+ right:240px;
+ z-index:12;
+}
+#slide-2 { 
+ right:192px;
+ z-index:11;
+}
+#slide-3 { 
+ right:144px;
+ z-index:10;
+}
+#slide-4 { 
+ right:96px;
+ z-index:9;
+}
+#slide-5 { 
+ right:48px;
+ z-index:8;
+}
+#slide-6 { 
+ right:0px;
+ z-index:7;
+}
+
+
+#home.style-00 .container-carousel-and-attribute {
+ background:#092D4F;	
+ border-left:7px solid #95B3CD;
+ border-right:7px solid #95B3CD; 
+ margin:0 -7px;
+ margin:0;
+ overflow:auto;
+ width:950px; 
+}
+#home.style-00 #carousel {
+ width:715px;	
+}
+
+#home.style-01 #carousel {
+ width:716px;	
+}
+
+/* \\\ Carousel /// */
+
+
+/* /// Attribute \\\ */
+#attribute {
+ background:#092D4F;	
+ background-image: -moz-linear-gradient(0 125px, #092D4F, #0F3F79); /* FF3.6 */
+ background-image: -webkit-gradient(linear, 0 0, 125 0, from(#092D4F), to(#0F3F79)); /* Saf4+, Chrome */ 
+/* border-right:7px solid #95B3CD; */
+ float:right; 
+ height:288px;  
+/* margin:0 -14px 0 0; */
+ overflow:hidden;
+ padding:0;
+ position:relative;
+ text-align:right;
+ width:235px;
+}
+/* \\\ Attribute /// */
+
+
+/* /// Home Page \\\ */
+
+#home .container-events-news-and-spotlight {
+ background:#fff url(/images/luther2010/backgrounds/rules-for-home-page.png) bottom left no-repeat;	
+ float:left;
+ margin:0 7px 0.75em;
+ padding:0 0 0.75em;
+ overflow:hidden;
+ width:950px;
+}
+
+
+/* // Red Strip Header \\ */
+header.red-stripe {
+ padding:.75em 0;
+}
+.container-events-news-and-spotlight header.red-stripe {
+ padding:0.833333em 0 0.666666em 0;
+}
+header.red-stripe > h1 {
+ background:#a11;
+ color:#004788;
+ font-size:1.5em; /* 18px */
+ font-weight:bold;
+ height:1em;
+ line-height:1em;
+ margin:0;
+ padding:0;
+ text-transform:uppercase;
+}
+header.red-stripe > h1 > span {
+ background:#fff;
+ padding:0 5px 0 0;
+}
+
+#home.style-00 .container-events-news-and-spotlight header.red-stripe,
+#home.style-00 .container-events-news-and-spotlight header.red-stripe > h1 > span {
+ background:#e0ebf4 url(/images/luther2010/backgrounds/html-body-gradient-background.png) repeat-x 0 -434px;
+ background-image: -moz-linear-gradient(0 559px 90deg, #F7FAFC, #e0ebf4); /* FF3.6 */
+ background-image: -webkit-gradient(linear, 0 0, 0 559, from(#E0EbF4), to(#F7FAFC)); /* Saf4+, Chrome */	 /* not working! */  
+}
+#home.style-00 .container-events-news-and-spotlight header.red-stripe > h1 > span {
+ padding:0 5px;	
+}
+/* \\ Red Strip Header // */
+
+
+/* // Blue Strip Header \\ */
+header.blue-stripe {
+ padding:.916666em 0;
+}
+
+header.blue-stripe > h1 {
+ background:#99b7ce;
+ color:#004788;
+ font-size:1.166666em; /* 14px */
+ font-weight:bold;
+ height:1em;
+ line-height:1em;
+ margin:0;
+ padding:0;
+ text-transform:uppercase;
+}
+header.blue-stripe > h1 > span {
+ background:#fff;
+ padding:0 5px 0 0;
+}
+
+/* \\ Blue Strip Header // */
+
+
+#home.style-00 .container-events-news-and-spotlight section.events .hfeed,
+#home.style-00 .container-events-news-and-spotlight section.news .hfeed,
+#home.style-00 .container-events-news-and-spotlight section.spotlight article {
+ border-top:1.5em solid #fff;
+}
+
+
+
+/* /// Contact \\\ */
+.contact-information {
+ margin:1.5em 12px 0;	
+}
+.contact-information h1,
+.contact-information h2 {
+ color:#006;
+ font-size:1em;
+ font-weight:bold;
+ line-height:1.5em;
+ margin:1.5em 0;
+}
+.contact-information h2 {
+ margin-bottom:0;
+}
+.contact-information .vcard {
+ margin:18px	
+}
+
+
+/* \\\ Contact /// */
+
+/* /// Blog Feed \\\ */
+
+.atom-feed {
+	
+}
+
+.atom-feed .hfeed {
+
+}
+.atom-feed .hfeed  li {
+}
+.atom-feed .hfeed .hentry {
+ background:url(/images/luther2010/backgrounds/blue-rule.png) repeat-x bottom left;	
+ font-size:1em;
+ margin:0.75em 0 0.75em 0; 	 
+ min-height:9em;	
+ padding:0 0 0 77px;
+ position:relative;
+}
+.atom-feed .hfeed .hentry header {
+ font-size:1em;
+ line-height:1.5em;
+ margin:0.75em 0 0.75em 0; 	
+}
+.atom-feed .hfeed .hentry header h1 {
+ font-size:1.333333em;
+ font-weight:bold;
+ line-height:1.125em;
+ margin:.5625em 0 .5625em -77px; 
+}
+.atom-feed .hfeed .hentry a:link,
+.atom-feed .hfeed .hentry a:visited,
+.atom-feed .hfeed .hentry a:hover,
+.atom-feed .hfeed .hentry a:active,
+.atom-feed .hfeed .hentry a:focus {
+ color:#013E7B;
+ text-decoration:none;
+}
+
+.atom-feed .hfeed .hentry .author {
+ font-weight:bold;	
+}
+
+.atom-feed .hfeed .hentry .author figure {
+ left:0;
+ position:absolute;
+ margin-top:-1em;
+}
+.atom-feed .hfeed .hentry .author figure img {
+ border:1px solid #666;	
+}
+.atom-feed .hfeed .hentry .entry-summary {
+ color:#09203E;	
+}
+.atom-feed .hfeed .hentry footer {
+ color:#666;	
+ margin:0.75em 0 0.75em 0; 		
+ padding:0 0 0.75em; 	 
+}
+
+
+/* \\\ Blog Feed /// */
+
+
+
+
+/* /// Events \\\ */
+.events .hfeed {
+ padding:0 2px;
+}
+.events .vevent {
+ clear:both;
+ min-height:6em;
+}
+.events .hfeed .vevent a:link {
+ text-decoration: none;
+}
+.events .vevent time.dtstart {
+ float:left;
+ margin:0.333333em 1em 1.222222em 0;
+ margin:0.333333em 1em 0 0; 
+ width:3.75em;
+}
+.events .vevent time.dtstart span {
+ background:#a11;	
+ color:#fff;
+ display:block;
+ font-size:1em; /* 12px */
+ line-height:1.5em; /* 18px */
+ font-weight:bold;
+ text-align:center;
+}
+.events .vevent time.dtstart .month {
+}
+.events .vevent time.dtstart .day {
+ background:#E3ECF6;	
+ color:#000;
+ font-size:1em; /* 12px */
+ line-height:2em; /* 24px */
+ font-weight:bold;
+ margin:0 0 0.75em;
+ padding:0 0 0.25em;
+ text-align:center;
+}
+.events .vevent .summary {
+ color:#003580;
+ font-size:1em;
+ line-height:1.5em;
+ font-weight:bold;
+ margin:0 0 1.5em 4.75em;
+ padding:0;	
+}
+
+nav.button a:link,
+nav.button a:visited,
+nav.button a:hover,
+nav.button a:active,
+nav.button a:focus {
+ background:#A5BBD7;
+ clear:both;
+ color:#fff; 
+ display:block;
+ float:left;
+ font-size:1em;
+ line-height:2em;
+ margin:0 0 1em;
+ padding:0 1em;
+ text-decoration:none;
+}
+.container-events-news-and-spotlight nav.view-all {
+ padding:0 12px;	
+}
+
+#home.style-00 .container-events-news-and-spotlight .events > header > h1 > span {
+ padding-left:0;
+}
+.container-events-news-and-spotlight .events {
+ float:left;	
+ width:237px;	
+}
+.container-events-news-and-spotlight .events .hfeed {
+ padding:0 12px;
+}
+
+
+#home.style-01 .events .hfeed {
+ float:left;	
+ width:240px;	
+}
+
+.events #calendar {
+ background:#E3ECF6;	
+ color:#333;
+ float:right;	
+ font-weight:bold;
+ margin:0 10px 0 0;
+ width:195px;	
+ width:188px;	 
+}
+.content-tertiary .events #calendar {
+ float:none; 
+}
+.content-tertiary .events h2 {
+ font-size:1.166666em; /* 14px */
+ font-weight:bold;
+ line-height:1.285714em;
+ margin:1.285714em 0;
+ text-transform:uppercase;
+}
+.events #calendar header.month {
+ font-size:1em;
+ line-height:1.5em;
+ padding:0 2.5em;	
+ position:relative;	
+ text-align:center;
+}
+.events #calendar header.month h1 {
+ color:#333;	
+ display:inline;
+ font-size:1em;
+ font-weight:bold;
+ line-height:1.5em;
+ margin:0;
+ padding:0;
+}
+.events #calendar header.month .previous {
+ left:1em;
+ position:absolute;
+ text-decoration:none;
+}
+.events #calendar header.month ol,
+.events #calendar header.month ol li {
+ display:inline;	
+}
+.events #calendar header.month .next {
+ right:1em;
+ position:absolute;
+}
+.events #calendar header.month a:link,
+.events #calendar header.month a:visited,
+.events #calendar header.month a:hover,
+.events #calendar header.month a:active,
+.events #calendar header.month a:focus {
+ text-decoration:none; 
+}
+.events #calendar table {
+ width:100%;
+}
+.events #calendar th {
+ background:#e2e6f5;
+ font-size:0.75em;
+ line-height:2em;
+ min-height:2em; 
+}
+.events #calendar td {
+ border:1px solid #B5C7D7;
+ line-height:26px;  
+ min-height:26px; 
+}
+.events #calendar td {
+ border-width:1px 1px 0 0;
+}
+.events #calendar td:last-child {
+ border-right-width:0;
+}
+.events #calendar td,
+.events #calendar th {
+ font-weight:bold;	
+ min-width:26px;	 
+ text-align:center;	
+ vertical-align:middle;
+}
+
+.events #calendar table a:link,
+.events #calendar table a:visited,
+.events #calendar table a:hover,
+.events #calendar table a:active,
+.events #calendar table a:focus {
+ color:#003580;
+ display:block;
+ font-weight:bold; 
+ height:100%;
+ text-decoration:none;
+}
+.events #calendar table a:hover {
+ background:#f00;	
+}
+
+
+
+.content-secondary .events {	
+ margin:1.5em 0;
+ padding:0 0 0 10px; 
+}
+.content-secondary .events .hfeed {
+ padding-top:1.5em;
+}
+
+
+
+
+
+
+
+
+
+/* /// News \\\ */
+
+.news a {
+ color:#333;	
+ text-decoration:none;	
+}
+.news .hfeed article {
+ margin:0 0 1.5em;
+}
+.news .hfeed article h1 {
+ color:#003580;
+ font-size:1em;
+ line-height:1.5em;
+ font-weight:bold;
+ margin:0;
+ padding:0;
+}
+.container-events-news-and-spotlight .news {
+ float:left;	
+ width:239px;	
+}
+.container-events-news-and-spotlight .news .hfeed {
+ padding:0 12px;
+}
+
+
+/* // Twitter \\ */
+.content-tertiary .twitter-feed h1 {
+ font-size:1.166666em; /* 14px */
+ font-weight:bold;
+ line-height:1.285714em;
+ margin:0.642857em 0;
+ text-transform:uppercase;
+}
+.content-tertiary .twitter-feed {
+ padding:0 10px 0 0;
+}
+.twitter-feed {
+
+}
+.twitter-feed a:link,
+.twitter-feed a:visited,
+.twitter-feed a:hover,
+.twitter-feed a:active,
+.twitter-feed a:focus {
+ color:#003580;	
+ text-decoration:none;
+}
+.twitter-feed .hfeed {
+
+}
+.twitter-feed .hentry {
+ margin:0 0 1.5em;	 
+
+}
+.twitter-feed .author {
+
+}
+.twitter-feed .author figure {
+ display:none;	
+}
+.twitter-feed .screen-name {
+ color:#003580;	
+ font-weight:bold;
+}
+.twitter-feed footer {
+ color:#666;
+}
+
+/* \\ Twitter // */
+
+
+/* \\\ News /// */
+
+
+.gallery {
+ overflow:auto;	
+ padding:0 0 3em;
+ position:relative;
+}
+.gallery h2 {
+ font-size:1em;
+ line-height:1.5em;
+ margin:0;
+ position:absolute;
+ bottom:0.75em;
+ 
+}
+.gallery ul {
+ margin:0;	
+}
+.gallery li {
+ height:64;
+ float:left;
+ margin:0 8px 8px 0;
+ width:64px;
+}
+
+
+
+
+
+/* /// Spotlight \\\ */
+.spotlight {
+ overflow:hidden;	
+ width:auto; 
+}
+.spotlight article {
+ min-height:16em;
+ padding:0 260px 0 0;
+ position:relative;
+}
+.content-tertiary .spotlight article {
+ padding:0;
+}
+.content-tertiary .spotlight article {
+ padding:0 12px 0 0;
+}
+.content-tertiary .spotlight article header {
+ display:table;
+ height:10em;	
+ overflow:hidden;	/* ? */ 
+ padding:0 0 .5em 106px;
+ width:104px;
+}
+.content-tertiary .spotlight article header hgroup {
+ display:table-cell;
+ vertical-align:middle;
+}
+.content-tertiary .spotlight article h1.name,
+.content-tertiary .spotlight article h2 {	
+ font-size:1em; /* 18px */
+ line-height:1.5em;
+}
+.content-tertiary .spotlight article h1.name .fn {
+ display:block;	
+}
+
+.content-tertiary .spotlight article figure {
+ left:0;	
+ position:absolute;
+ top:0;
+}
+
+
+
+.container-events-news-and-spotlight .spotlight article {
+ padding-left:12px;
+}
+.spotlight abbr {
+ border:none;
+ text-decoration:none;	
+}
+.spotlight article header {
+ color:#003580;	
+ padding:0; 
+ padding:1em 0 1.25em;
+}
+.container-events-news-and-spotlight .spotlight article header {
+ margin-top:-4px;
+ margin-bottom:13px;
+ padding:0;
+}
+.spotlight article h1.name {
+ color:#003580;		
+ font-size:1.5em; /* 18px */
+ font-weight:bold;
+ line-height:1.5em;
+ margin:0;
+ padding:0;
+}
+.container-events-news-and-spotlight .spotlight article header {
+ line-height:1.5em; /* 27 px */
+}
+.spotlight article h2 {
+ color:#003580;		
+ font-size:1.166666em; /* 14px */
+ font-style:italic;
+ font-weight:normal;
+ line-height:1.285714em; /* 18px */
+ margin:0; 
+}
+.spotlight article .profile {
+ color:#0a2244;	
+/* color:#191C45;	*/
+ margin:0 0 1.5em;	
+}
+.spotlight .profile .question {
+ display:block;
+ font-weight:bold;	
+}
+.spotlight article figure {
+ left:241px;	
+ position:absolute;
+ top:0;
+}
+.container-events-news-and-spotlight .spotlight article figure {
+ top:-1.5em;
+}
+
+
+#home.style-00 .container-events-news-and-spotlight section.spotlight {	
+ float:left;	
+ width:474px;	
+}
+
+#home .container-events-news-and-spotlight section.events nav,
+#home .container-events-news-and-spotlight section.news nav,
+#home .container-events-news-and-spotlight section.spotlight nav {
+ display:block;	
+}
+
+.contentcontainer {
+ background:#fff;	
+ border-bottom:1.5em solid #fff;
+ margin:0 0 0.75em 7px;
+ width:950px;
+}
+.text2cola .contentcontainer {
+ background:#fff url(/images/luther2010/backgrounds/rules-content-page.png) no-repeat;
+}
+
+
+/* / Figure Abstract \ */
+#section-sign {
+ background:#AFD0EF;	
+ border-left:7px solid #95B3CD;
+ border-rightt:7px solid #AFD0EF;
+ color:#003388;	
+ display:table;	
+ height:4.5em;	
+ margin:0 0 0 -7px; 
+ overflow:hidden;	
+ padding:0.75em 0; 
+ text-transform:uppercase;
+ width:234px; 
+}
+#section-sign .wrapper {	
+ display:table-cell;
+ vertical-align:middle;
+ padding:0 10px;
+ width:214px;
+}
+#section-sign h2 {
+ color:#003388;
+ font-size:1.666666em;
+ line-height:1.1em;
+ margin:0;
+ text-transform:uppercase;
+}
+#section-sign a {
+ text-decoration:none;	
+}
+#contact #abstract {
+ background:#808080 url(/contact/images/contact-background.jpg) no-repeat;	
+ color:#fff; 
+ margin:0 -57px; 	
+}
+#contact #abstract .wrapper {	
+ padding:0 57px 25px; 
+}
+#contact #abstract .wrapper p {
+ font-size:2.333333em; /* 12px * 2.333333em = 28px */ 
+ line-height:1.464285em; /* 28px * 1.464285em = 41px */
+ text-shadow:rgba(0, 0, 0, 0.1) 2px 2px 4px;
+ width:610px;	  
+}
+#contact #abstract a:link,
+#contact #abstract a:visited,
+#contact #abstract a:hover,
+#contact #abstract a:active,
+#contact #abstract a:focus {
+ color:#fff;
+ text-decoration:none;
+}
+/* \ Figure Abstract / */
+
+
+aside.quote {
+ color:#036;
+ font-size:16px;
+ line-height:24px;
+ /*padding:0 12px;*/
+ text-align:center;
+ 
+	
+}
+aside.quote .break {
+ display:block;	
+}
+
+
+/* /// Footer \\\ */
+footer.site-info {
+ background:#0B2147;
+ border:7px solid #8DA1B4; 
+ border-bottom:0;
+ border-top:0;
+ clear:both;
+ color:#cde; 
+ color:rgba(255,255,255,0.8);
+ font-size:0.833333em;
+ line-height:1.8em;
+ margin:.9em -10px 3.6em;
+ margin:.9em -0 3.6em; 
+ padding:0.9em 10px;
+ text-align:center;
+ text-transform:uppercase;
+ width:930px;
+}
+/* \\\ Footer /// */

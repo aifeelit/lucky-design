@@ -1,0 +1,291 @@
+/* luther css applied to reason classes */
+
+#breadcrumbs.locationBarText {
+  display:none;
+}
+
+/* remove "More Spotlight Archives" link */
+body#home ul.pubLinks, body#primaryLRC ul.pubLinks {
+  display:none;
+}
+
+
+.navListItem.open.current strong {
+  color: #E0CCE0;
+  font-weight:normal;
+}
+.navListTop {
+  margin: 0;
+  padding: 0 0 0 1em;
+}
+.navList {
+  padding: 0 0 0 1em;
+}
+#navmain li {
+  padding: 0 1px 0 4px;
+}
+#navglobal li {
+  padding: 0 14px 0 15px;
+}
+
+.newsItemName a {
+  line-height: 2.0;
+}
+.newsItemDesc {
+  line-height: 1.5;
+  font-size: 0.950em;
+}
+.newsItemDate {
+  display:none;
+}
+#meat .contentHead h2.pageTitle {
+  font-family: arial, helvetica, sans serif;
+  font-weight: normal;
+  color:#648;
+  font-size:2.2em;
+  padding-bottom:0.50em;
+  margin:1.0em 0 1.0em 0;
+}
+#meat #content .imageChunk {
+  float:right;
+  width:30%;
+}
+#meat #content .imageChunk img,
+#meat .contentPost #blog.publication .item .fullPost .tnImage img  {
+  border:thin solid silver;
+  padding:3px;
+  margin:0 0 5px 0;
+}
+#meat #content .imageChunk .tnDesc a,
+#meat #content .imageChunk p,
+#meat .contentPost #blog.publication .item .fullPost .tnDesc a  {
+  color:#777777;
+  font-style:italic;
+  font-size: 0.95em;
+  line-height:1.25;
+}
+
+/* publication */
+#meat .contentPost #blog.publication .persistent {
+  display: none;
+}
+#meat .contentPost #blog.publication .moduleNav ul.posts, 
+#meat .contentPost #blog.publication .item .fullPost .relatedItems ul {
+  list-style-type: none;
+  margin: 0 1em 2em 0;
+}
+#meat .contentPost #blog.publication .moduleNav ul.posts li.post{
+  border-top: none; 
+  font-size: 1.0em;
+  padding:0 0 10px 0;
+}
+#meat .contentPost #blog.publication .moduleNav ul.posts li.post h4.title{
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 0 0 0.5em 0;
+}
+#meat .contentPost #blog.publication .moduleNav ul.posts li.post .date {
+  display: none;
+  /*font-size: 0.95em;*/
+  /*margin: 0 0 0.5em 0;*/
+}
+#meat .contentPost #blog.publication .moduleNav ul.posts li.post ul.links {
+  /*display: none;*/
+}
+
+/* publication story */
+#meat .contentPost #blog.publication .item .fullPost .primaryContent h3 {
+  font-size: 1.5em;
+}
+#meat .contentPost #blog.publication .item .fullPost .primaryContent .date {
+  font-size: 0.95em;
+  margin: 0 0 1.5em 0;
+}
+#meat .contentPost #blog.publication .item .fullPost .comments {
+  margin: 1.0em 0 0 0;
+}
+#meat .contentPost #blog.publication .item .fullPost .author {
+  margin: 0 0 1.0em 0;
+  font-style: italic;
+}
+#meat .contentPost #blog.publication .item .fullPost .comments ul {
+  list-style-type: none;
+}
+#meat .contentPost #blog.publication .item .fullPost .addCommentForm a img {
+  display: inline;
+}
+#meat .contentPost #blog.publication .item .fullPost .addCommentForm form#disco_form {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  background-color: #ffffff;
+}
+#meat .contentPost #blog.publication .item .fullPost .addCommentForm table {
+  background-color: #ffffff;
+}
+#meat .contentPost #blog.publication .moduleNav .pagination.above,
+#meat .contentPost #blog.publication .item .categories,
+#meat .contentPost #blog.publication .item .fullPost h3.postTitle,
+#meat .contentPost #blog.publication .item .fullPost .date,
+#footer .module1 #maintained, 
+#footer .module2 .editDiv, 
+#meat .contentPost #blog.publication .feedLink,
+#footer .module2 p#footerLoginLink  {
+  display: none;
+}
+body#spotlightarchive #meat .contentPost #blog.publication .moduleNav ul.posts li.post .desc,
+body#spotlightarchive #meat .contentPost #blog.publication .moduleNav ul.posts li.post .links, 
+body#spotlightarchive #meat .contentPost .back {
+  display: none;
+}
+body#spotlightarchive #meat .contentPost #blog.publication .moduleNav ul.posts li.post {
+  font-size: 0.95em;
+  padding:0 0 0 0;
+}
+body#spotlightarchive #meat .contentPost #blog.publication .moduleNav ul.posts li.post .title {
+  font-weight: normal;
+}
+body#spotlightarchive #meat .contentPost #blog.publication .moduleNav ul.sections {
+ list-style-type: none; 
+}
+div.contact-info dt  {
+  color: #888888;
+  font-family:Verdana,Arial,sans-serif;
+  font-size:0.975em;
+  font-weight:bold;
+  margin:2em 0 1em;
+}
+div.contact-info dd, div.contact-info a, div.contact-info a:hover {
+  font-family:Verdana,Arial,sans-serif;
+  font-size:0.975em;
+  color:#888888;
+  line-height:1.5em;
+  margin:0;
+}
+div.assets a strong {
+  font-weight: normal; 
+}
+
+
+/*Forms -- css for Reason/Thor generated forms -sls
+*/
+#content form td, #content form th, #content form tr{
+	border-style: hidden;
+}
+#disco_form {
+	padding-bottom:15px;
+  	margin-bottom:5px;
+  	background-color: #E3EDFF;
+}
+
+#disco_form table.thorTable{
+	width:90%;
+	margin:6px;
+	background-color: #E3EDFF;
+}
+
+table.thorTable tbody {
+	border-style: hidden;
+	background-color: #E3EDFF;
+
+}
+
+table.thorTable textarea{
+	width:95%;
+	height:75px;
+	border-top: 2px inset silver;
+	border-right: 2px solid silver;
+	border-bottom: 1px solid silver;
+	border-left: 1px solid silver;
+}
+
+table.thorTable div.checkBoxGroup table, 
+table.thorTable div.radioButtons table {
+	width: auto;
+}
+table.thorTable div.checkBoxGroup th,
+table.thorTable div.checkBoxGroup td {
+	padding: 0 5px 1px 0;
+}
+table.thorTable div.checkBoxGroup td label {
+	position: relative;
+	top: 1px;
+}
+table.thorTable div.radioButtons th,
+table.thorTable div.radioButtons td {
+	padding: 0 5px 4px 0;
+}
+table.thorTable div.radioButtons td label {
+	position: relative;
+	top: 2px;
+}
+
+#requiredtextRow .td.words {
+	text-align: left;
+}
+
+table.thorTable td.words {
+	padding: 0.5em;
+	vertical-align: top;
+}
+
+tr#discoSubmitRow input {
+        margin-top: 15px;
+}
+
+/* Tabs under the imagetop on Academic Departments 
+*/
+#departmentHeader{
+	font-size: x-large;
+	letter-spacing: 5px;
+	text-align: center;
+	padding: 3px 0 7px 0;
+	background-color: #d7e3f7;
+}
+#subImageTopTabs ul{
+	margin-left: 0;
+	text-align: justify;
+}
+#subImageTopTabs li{
+	display: inline;
+	font-size: medium;
+	padding-right: 25px;
+}
+/* sidebar av images */
+div#av div.moduleNav ul li img {
+  margin: 0 0 15px 0;
+  padding: 3px;
+  border: 1px solid #c0c0c0; 
+  width: 120px;
+}
+div#av div.moduleNav ul li img.av-play {
+  margin: -88px 40px 0 0;
+  border: none;
+  opacity: 0.7;
+  width: 44px;
+}
+div#av div.moduleNav ul li a:hover img {
+  border: 1px solid #8899AA; 
+  opacity: 0.90;
+}
+div#av div.moduleNav ul li a:hover img.av-play {
+  opacity: 0.85;
+  border: none;
+}
+.contentPost div#av {
+  padding: 10px 0 0 0;
+}
+.contentPost div#av div.moduleNav ul li img.av-play {
+  margin: 25px -88px 0 0;
+}
+.addthis_default_style, .at300m  {
+  padding: 0 0 10px 0 !important;
+  /*padding: 0 0 0 0 !important; */
+  float: right;
+}
+.at300bs.at15t_expanded, .at300bs.at15t_compact {
+  background:transparent url(/images/logoblue1414.gif) no-repeat scroll left center !important;
+}
+div#faq div.moduleNav ul div {
+  color: inherit;
+  font-size: inherit;
+}

@@ -1,0 +1,35 @@
+#nav-search ul {
+ float:right;	
+}
+#search fieldset.overlabel-wrapper label.overlabel-apply {
+ top:0.5em;
+}
+#search button {
+ border:1px solid;
+ top:2px;
+}
+#nav-audience {
+ clear:none;	
+ min-height:1px;
+}
+#nav-audience ul {
+float:right;
+}
+
+footer.site-info {
+ color:#cde; 
+}
+nav.site-info a,
+nav.site-info a:link,
+nav.site-info a:visited,
+nav.site-info a:hover,
+nav.site-info a:active,
+nav.site-info a:focus {
+ color:#cde; 
+}
+
+/* /// Group - Modular Float Management \\\ */
+*:first-child+html .group {
+ min-height:1px;	
+}
+/* \\\ Group - Modular Float Management /// */
