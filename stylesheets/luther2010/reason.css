@@ -250,9 +250,9 @@ tr#discoSubmitRow input {
 	font-size: medium;
 	padding-right: 25px;
 }
-/* sidebar av images */
+/* av images */
 div#av div.moduleNav ul li img {
-  margin: 0 0 15px 0;
+  margin: 0 0px 15px 0;
   padding: 3px;
   border: 1px solid #c0c0c0; 
   width: 120px;
@@ -271,6 +271,13 @@ div#av div.moduleNav ul li a:hover img.av-play {
   opacity: 0.85;
   border: none;
 }
+.content-tertiary div#av div.moduleNav ul li img {
+  margin: 0 20px 15px 0;
+}
+.content-tertiary div#av div.moduleNav ul li img.av-play {
+  margin: -88px 60px 0 0;
+}
+
 .contentPost div#av {
   padding: 10px 0 0 0;
 }
