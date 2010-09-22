@@ -664,7 +664,7 @@ width:234px;
  width:715px;	
 }
 
-#home.style-01 #carousel {
+#home.style-home-01 #carousel {
  width:716px;	
 }
 
@@ -1337,13 +1337,13 @@ nav.button a:focus {
 
 
 aside.quote {
- color:#036;
- font-size:16px;
- line-height:24px;
- /*padding:0 12px;*/
+ color:#27699B;
+ font-size:1.33333em;
+ font-weight:bold;
+ line-height:1.6875em;
+ margin:0 0 1.125em;
+ padding:0 20px 0 6px;
  text-align:center;
- 
-	
 }
 aside.quote .break {
  display:block;	
