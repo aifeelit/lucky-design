@@ -864,7 +864,11 @@ header.blue-stripe > h1 > span {
  clear:both;
  min-height:6em;
 }
-.events .hfeed .vevent a:link {
+.events .hfeed .vevent a,
+.events .hfeed .vevent a:link,
+.events .hfeed .vevent a:hover,
+.events .hfeed .vevent a:active,
+.events .hfeed .vevent a:focus {
  text-decoration: none;
 }
 .events .vevent time.dtstart {
@@ -940,7 +944,14 @@ nav.button a:focus {
  width:240px;	
 }
 
-.events #calendar {
+.content-primary .events.with-calendar .hfeed {
+ float: left;
+ width: 240px;
+}
+
+.events .calendarGrid {
+ border: 0;
+ padding: 0;
  background:#E3ECF6;	
  color:#333;
  float:right;	
@@ -959,21 +970,23 @@ nav.button a:focus {
  margin:1.285714em 0;
  text-transform:uppercase;
 }
-.events #calendar header.month {
+/*
+.events .calendarGrid {
  font-size:1em;
  line-height:1.5em;
  padding:0 2.5em;	
  position:relative;	
  text-align:center;
 }
-.events #calendar header.month h1 {
+*/
+.events .calendarGrid h4 {
  color:#333;	
  display:inline;
  font-size:1em;
  font-weight:bold;
  line-height:1.5em;
  margin:0;
- padding:0;
+ padding:0 2.5em;
 }
 .events #calendar header.month .previous {
  left:1em;
@@ -995,47 +1008,56 @@ nav.button a:focus {
 .events #calendar header.month a:focus {
  text-decoration:none; 
 }
-.events #calendar table {
+.events .calendarGrid table {
  width:100%;
 }
-.events #calendar th {
+.events .calendarGrid th {
  background:#e2e6f5;
  font-size:0.75em;
  line-height:2em;
  min-height:2em; 
 }
-.events #calendar td {
+.events .calendarGrid td {
  border:1px solid #B5C7D7;
  line-height:26px;  
  min-height:26px; 
-}
-.events #calendar td {
  border-width:1px 1px 0 0;
 }
-.events #calendar td:last-child {
+.events .calendarGrid td:last-child {
  border-right-width:0;
 }
-.events #calendar td,
-.events #calendar th {
+.events .calendarGrid td a {
+ padding: 0;
+}
+.events .calendarGrid td.currentlyViewing {
+ /*background-color:#D6E3F6;*/
+ background:#E3ECF6;	
+}
+.events .calendarGrid td.today  {
+ background-color: #D0DCFA;
+}
+.events .calendarGrid td,
+.events .calendarGrid th {
  font-weight:bold;	
  min-width:26px;	 
  text-align:center;	
  vertical-align:middle;
+ padding: 0;
 }
 
-.events #calendar table a:link,
-.events #calendar table a:visited,
-.events #calendar table a:hover,
-.events #calendar table a:active,
-.events #calendar table a:focus {
+.events .calendarGrid table a:link,
+.events .calendarGrid table a:visited,
+.events .calendarGrid table a:hover,
+.events .calendarGrid table a:active,
+.events .calendarGrid table a:focus {
  color:#003580;
  display:block;
  font-weight:bold; 
  height:100%;
  text-decoration:none;
 }
-.events #calendar table a:hover {
- background:#f00;	
+.events .calendarGrid table a:hover {
+ background:#fff;	
 }
 
 
@@ -1400,6 +1422,9 @@ footer.site-info {
   margin:10px 0 18px -2px;
   overflow:hidden;
   width:500px;
+}
+.content-tertiary .gallery-info #gallerycontainer {
+  width:100%;
 }
 .gallery-info #gallerycontainer hr {
   height: 0;
