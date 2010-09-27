@@ -1,6 +1,12 @@
+hr {background:#ddd;color:#ddd;clear:both;float:none;width:100%;height:.1em;margin:0 0 1.45em;border:none;}
+hr.space {background:#fff;color:#fff;}
 
 #breadcrumbs.locationBarText {
  display:none;
+}
+
+#imagetopframe img {
+ padding: 0 0 15px 0; 
 }
 
 /* remove "More Spotlight Archives" link */
@@ -130,6 +136,31 @@ input#searchButton {
 #meat .contentPost #blog.publication .item .fullPost .primaryContent .date {
   font-size: 0.95em;
   margin: 0 0 1.5em 0;
+}
+#meat .contentPost #blog.publication .item .fullPost .comments {
+  margin: 1.0em 0 0 0;
+}
+#meat .contentPost #blog.publication .item .fullPost .comments li {
+  list-style-type: none;
+  list-style-image: none;
+}
+#meat .contentPost #blog.publication .item .fullPost .comments h4,
+#meat .contentPost #blog.publication .item .fullPost .addCommentForm h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+#meat .contentPost #blog.publication .item .fullPost .addCommentForm th,
+#meat .contentPost #blog.publication .item .fullPost .addCommentForm td,
+#meat .contentPost #blog.publication .item .fullPost .addCommentForm caption {
+  padding: 4px 10px 4px 5px;
+}
+#meat .contentPost #blog.publication .item .fullPost .addCommentForm form#disco_form {
+  margin-bottom: 10px;
+  padding-bottom: 0;
+  background-color: transparent;
+}
+#meat .contentPost #blog.publication .item .fullPost .addCommentForm table {
+  background-color: transparent;
 }
 #meat .contentPost #blog.publication .moduleNav .pagination.above,
 #meat .contentPost #blog.publication .item .categories,
@@ -321,6 +352,11 @@ div#quotes li {
   font-weight: normal;
   letter-spacing: .05em;
 }
+.sidebar #sidebar_title h2 a {
+  line-height: 15px; 
+  padding: 35px 0 0 0;
+  height:60px;
+}
 
 /*Forms -- css for Reason/Thor generated forms -sls
 */
@@ -375,4 +411,35 @@ table.thorTable td.words {
 tr#discoSubmitRow input {
 	margin-top: 15px;
 }
-
+/* sidebar av images */
+div#av div.moduleNav ul li img {
+  margin: 0 0 15px 15px;
+  padding: 3px;
+  border: 1px solid #c0c0c0;
+  width: 120px;
+}
+div#av div.moduleNav ul li img.av-play {
+  border: none;
+  opacity: 0.7;
+  margin: 25px -103px 0 0;
+  width: 44px;
+}
+div#av div.moduleNav ul li a:hover img {
+  border: 1px solid #8899AA;
+  opacity: 0.90;
+}
+div#av div.moduleNav ul li a:hover img.av-play {
+  opacity: 0.85;
+  border: none;
+}
+.contentPost div#av {
+  padding: 10px 0 0 0;
+}
+div#av div.moduleNav ul li {
+  list-style-image: none; 
+}
+.contentPost div#av div.moduleNav ul li h4 {
+  font-size:1.2em;
+  line-height:1.2em;
+  margin-bottom:1.0em;
+}
