@@ -1302,37 +1302,50 @@ nav.button a:focus {
  background:#fff url(/images/luther2010/backgrounds/rules-content-page.png) no-repeat;
 }
 
-
 /* / Figure Abstract \ */
 #section-sign {
  background:#AFD0EF;	
  border-left:7px solid #95B3CD;
- border-rightt:7px solid #AFD0EF;
  color:#003388;	
- display:table;	
- height:4.5em;	
+ display:block;
+ height:6em;	
  margin:0 0 0 -7px; 
  overflow:hidden;	
- padding:0.75em 0; 
+ text-decoration:none; 
  text-transform:uppercase;
  width:234px; 
 }
-#section-sign .wrapper {	
- display:table-cell;
- vertical-align:middle;
- padding:0 10px;
- width:214px;
+#section-sign.blue,
+#section-sign.blue h1,
+#section-sign.blue h2 {
+ background:#AFD0EF;	
+ color:#003388;		
 }
+#section-sign.green,
+#section-sign.green h1,
+#section-sign.green h2 {
+ background:#40842D;	
+ color:#fff;		
+}
+#section-sign div {	
+ display:table;
+ min-height:4.5em;	 
+ padding:.75em 10px;  
+}
+#section-sign div header {
+ display:table-cell;
+ height:4.5em; 
+ vertical-align:middle;
+}
+#section-sign h1,
 #section-sign h2 {
- color:#003388;
  font-size:1.666666em;
  line-height:1.1em;
  margin:0;
+ padding:0;
  text-transform:uppercase;
 }
-#section-sign a {
- text-decoration:none;	
-}
+
 #contact #abstract {
  background:#808080 url(/contact/images/contact-background.jpg) no-repeat;	
  color:#fff; 
