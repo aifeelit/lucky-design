@@ -1170,7 +1170,7 @@ nav.button a:focus {
  margin:0;	
 }
 .gallery li {
- height:64;
+ height:64px;
  float:left;
  margin:0 8px 8px 0;
  width:64px;
