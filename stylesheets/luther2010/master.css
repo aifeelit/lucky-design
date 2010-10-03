@@ -489,65 +489,50 @@ nav.site-info a:focus {
 }
 /* \ Site Informqtion (Foot) / */
 /* \\ Global Navigation // */
+/* \\\ Navigation /// */
 
-/* // Banners \\ */
+
+/* /// Banners \\\ */
 aside.banners {
-clear:both;
-float:left;
-margin:0 7px 0.75em;
-width:950px;
-}
-aside.banners ul, aside.banners li {
-list-style:none outside none;
-margin:0;
+ clear:both;
+ float:left;
+ margin:0 7px 0.75em;
+ width:950px;
 }
 aside.banners li {
-background:url("/images/luther2010/banners/transparent/blue.png") repeat-y scroll 0 0 transparent;
+ background:url("/images/luther2010/banners/transparent/blue.png") repeat-y scroll 0 0 transparent;
+ float:left;
+ margin:0 6px 0 0;
+ overflow:hidden;
+ position:relative;
+ width:233px; 
 }
 aside.banners li:nth-of-type(4n+1) {
-background:url("/images/luther2010/banners/transparent/yellow.png") repeat-y scroll 0 0 #ECA424;
+ background:url("/images/luther2010/banners/transparent/yellow.png") repeat-y scroll 0 0 #ECA424;
 }
 aside.banners li:nth-of-type(4n+2) {
-background:url("/images/luther2010/banners/transparent/green.png") repeat-y scroll 0 0 #40852D;
+ background:url("/images/luther2010/banners/transparent/green.png") repeat-y scroll 0 0 #40852D;
 }
 aside.banners li:nth-of-type(4n+3) {
-background:url("/images/luther2010/banners/transparent/blue.png") repeat-y scroll 0 0 #004788;
+ background:url("/images/luther2010/banners/transparent/blue.png") repeat-y scroll 0 0 #004788;
 }
 aside.banners li:nth-of-type(4n+4) {
-background:url("/images/luther2010/banners/transparent/red.png") repeat-y scroll 0 0 #A51C18;
-}
-aside.banners li {
-float:left;
-margin:0 6px 0 0;
-overflow:hidden;
-position:relative;
-width:233px;
+ background:url("/images/luther2010/banners/transparent/red.png") repeat-y scroll 0 0 #A51C18;
+ margin:0; 
 }
 aside.banners li a {
 display:block;
-}
-aside.banners li:nth-of-type(4n+4) {
-margin:0;
-width:233px;
 }
 .content-secondary aside.banners {
 margin:0.75em 0;
 overflow:hidden;
 }
-.content-secondary aside.banners li, .content-secondary aside.banners li:nth-of-type(n) {
+.content-secondary aside.banners li {
 float:none;
 margin:0 0 0.75em;
 width:234px;
 }
-/* \\ Banners // */
-
-
-
-
-
-/* \\\ Navigation /// */
-
-
+/* \\\ Banners /// */
 
 
 
