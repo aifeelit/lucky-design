@@ -440,6 +440,7 @@ header.global #luther-logo {
 }
 #nav-section ul {
  margin:0;
+ padding:0;
 }
 #nav-section li {
  border-bottom:0.0833333em solid #c7d8ea;
