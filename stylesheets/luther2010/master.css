@@ -60,6 +60,7 @@ body {
  float:left;	
  width:234px; 
 }
+
 .content figure {
  margin:0 0 1.5em;
 }
@@ -67,6 +68,15 @@ body {
  margin:1.5em 0;
  margin:.75em 0 2.25em; 
 }
+
+.content figure#imagetopframe {
+ overflow:hidden;
+ width:450px;	
+}
+.content figure#imagetopframe img {
+ max-width:450px;
+}
+
 .content p,
 .content ol,
 .content ul {
