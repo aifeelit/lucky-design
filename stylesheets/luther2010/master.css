@@ -43,11 +43,13 @@ body {
  margin:0;
  width:964px;
 }
+.style-home-01 .container,
 #home.style-01 .container,
 #home.style-02 .container {
  background:#fff url(/images/luther2010/backgrounds/rules-two-column-page.png) no-repeat 0 9px;
  border-bottom:1.5em solid #fff;
 }
+.style-home-01 .container,
 #home.style-01 .container {
  background-position:0 297px;
  border-bottom:1.5em solid #fff;
@@ -70,6 +72,7 @@ body {
 .content ul {
  margin:0 0 1.5em;	
 }
+.style-home-01 .content-primary p:first-of-type,
 #home.style-01 .content-primary p:first-of-type {
  font-size:1.333333em;
  line-height:1.6875em;
@@ -906,12 +909,12 @@ nav.button a:focus {
  padding:0 12px;
 }
 
-
+.style-home-01 .events .hfeed,
 #home.style-01 .events .hfeed {
  float:left;	
  width:240px;	
 }
-
+/* are both of these needed? */
 .content-primary .events.with-calendar .hfeed {
  float: left;
  width: 240px;
