@@ -490,33 +490,7 @@ nav.site-info a:focus {
 /* \ Site Informqtion (Foot) / */
 /* \\ Global Navigation // */
 
-/* // Banner Navigation \\ */
-nav.banners {
- clear:both;
- float:left;
- margin:0 7px .75em;
- width:950px;
-}
-nav.banners ul,
-nav.banners li {
- list-style:none;
- margin:0;
-}
-
-nav.banners li {
- float:left;	
- margin:0 6px 0 0;
- overflow:hidden;
- width:233px;
-}
-nav.banners li a {
- display:block;	
-}
-nav.banners li.apply {
- margin:0;	
- width:233px;
-}
-
+/* // Banners \\ */
 aside.banners {
 clear:both;
 float:left;
@@ -565,7 +539,7 @@ float:none;
 margin:0 0 0.75em;
 width:234px;
 }
-/* \\ Banner Navigation // */
+/* \\ Banners // */
 
 
 
