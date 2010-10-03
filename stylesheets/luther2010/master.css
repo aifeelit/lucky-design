@@ -1198,6 +1198,13 @@ nav.button a:focus {
  padding:0 260px 0 0;
  position:relative;
 }
+
+/* Added to override 12px top and bottom margins specified in default_styles.css
+*/
+.container-events-news-and-spotlight .spotlight div.relatedPub div.moduleNav ul li {
+ margin:0;
+}
+
 .content-tertiary .spotlight article {
  padding:0;
 }
