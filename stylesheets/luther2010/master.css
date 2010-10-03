@@ -34,7 +34,15 @@ body {
  margin:0 7px;
  width:950px;
 }
-
+/* Added #home.style-00 .container to account for div.container being added to style-home-00.
+   div.container was not in the original mark-up and was causing layout problems because it 
+   restricted width to 950 pixels.
+*/
+#home.style-00 .container { 
+ background:inherit;	
+ margin:0;
+ width:964px;
+}
 #home.style-01 .container,
 #home.style-02 .container {
  background:#fff url(/images/luther2010/backgrounds/rules-two-column-page.png) no-repeat 0 9px;
