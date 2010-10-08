@@ -38,19 +38,17 @@ body {
    div.container was not in the original mark-up and was causing layout problems because it 
    restricted width to 950 pixels.
 */
-#home.style-00 .container { 
+.style-home-00 .container { 
  background:inherit;	
  margin:0;
  width:964px;
 }
 .style-home-01 .container,
-#home.style-01 .container,
-#home.style-02 .container {
+.style-home-02 .container {
  background:#fff url(/images/luther2010/backgrounds/rules-two-column-page.png) no-repeat 0 9px;
  border-bottom:1.5em solid #fff;
 }
-.style-home-01 .container,
-#home.style-01 .container {
+.style-home-01 .container {
  background-position:0 297px;
  border-bottom:1.5em solid #fff;
 }
@@ -82,8 +80,7 @@ body {
 .content ul {
  margin:0 0 1.5em;	
 }
-.style-home-01 .content-primary p:first-of-type,
-#home.style-01 .content-primary p:first-of-type {
+.style-home-01 .content-primary p:first-of-type {
  font-size:1.333333em;
  line-height:1.6875em;
  margin:0 0 1.6875em;
@@ -142,7 +139,7 @@ body {
  margin:0 0 0.285714em;
 }
 
-#home.style-02 .content h1.page-title {	
+.style-home-02 .content h1.page-title {	
  font-size:2.333333em;	/* 12px * 2.333333em = 28px  double pica or two-line pica */
  font-weight:normal;
  line-height:1em;
@@ -633,7 +630,7 @@ width:234px;
 }
 
 
-#home.style-00 .container-carousel-and-attribute {
+.style-home-00 .container-carousel-and-attribute {
  background:#092D4F;	
  border-left:7px solid #95B3CD;
  border-right:7px solid #95B3CD; 
@@ -642,11 +639,11 @@ width:234px;
  overflow:auto;
  width:950px; 
 }
-#home.style-00 #carousel {
+.style-home-00 #carousel {
  width:715px;	
 }
 
-#home.style-home-01 #carousel {
+.style-home-01 #carousel {
  width:716px;	
 }
 
@@ -706,13 +703,13 @@ header.red-stripe > h1 > span {
  padding:0 5px 0 0;
 }
 
-#home.style-00 .container-events-news-and-spotlight header.red-stripe,
-#home.style-00 .container-events-news-and-spotlight header.red-stripe > h1 > span {
+.style-home-00 .container-events-news-and-spotlight header.red-stripe,
+.style-home-00 .container-events-news-and-spotlight header.red-stripe > h1 > span {
  background:#e0ebf4 url(/images/luther2010/backgrounds/html-body-gradient-background.png) repeat-x 0 -434px;
  background-image: -moz-linear-gradient(0 559px 90deg, #F7FAFC, #e0ebf4); /* FF3.6 */
  background-image: -webkit-gradient(linear, 0 0, 0 559, from(#E0EbF4), to(#F7FAFC)); /* Saf4+, Chrome */	 /* not working! */  
 }
-#home.style-00 .container-events-news-and-spotlight header.red-stripe > h1 > span {
+.style-home-00 .container-events-news-and-spotlight header.red-stripe > h1 > span {
  padding:0 5px;	
 }
 /* \\ Red Strip Header // */
@@ -742,9 +739,9 @@ header.blue-stripe > h1 > span {
 /* \\ Blue Strip Header // */
 
 
-#home.style-00 .container-events-news-and-spotlight section.events .hfeed,
-#home.style-00 .container-events-news-and-spotlight section.news .hfeed,
-#home.style-00 .container-events-news-and-spotlight section.spotlight article {
+.style-home-00 .container-events-news-and-spotlight section.events .hfeed,
+.style-home-00 .container-events-news-and-spotlight section.news .hfeed,
+.style-home-00 .container-events-news-and-spotlight section.spotlight article {
  border-top:1.5em solid #fff;
 }
 
@@ -909,7 +906,7 @@ nav.button a:focus {
  padding:0 12px;	
 }
 
-#home.style-00 .container-events-news-and-spotlight .events > header > h1 > span {
+.style-home-00 .container-events-news-and-spotlight .events > header > h1 > span {
  padding-left:0;
 }
 .container-events-news-and-spotlight .events {
@@ -920,8 +917,7 @@ nav.button a:focus {
  padding:0 12px;
 }
 
-.style-home-01 .events .hfeed,
-#home.style-01 .events .hfeed {
+.style-home-01 .events .hfeed {
  float:left;	
  width:240px;	
 }
@@ -1270,7 +1266,7 @@ nav.button a:focus {
 }
 
 
-#home.style-00 .container-events-news-and-spotlight section.spotlight {	
+.style-home-00 .container-events-news-and-spotlight section.spotlight {	
  float:left;	
  width:474px;	
 }
