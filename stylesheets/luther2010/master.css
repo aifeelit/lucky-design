@@ -974,27 +974,61 @@ nav.button a:focus {
 
 
 
-
-
+/* /// Events \\\ */
 .style-one-column .content-primary {
  padding-right:0;
  width:702px;
 }
+.style-one-column div#calendar div.gridAndOptions {
+ background:none;
+ border:none;
+ border-left:1px solid #ccc;
+ clear:left;
+ float: right;
+ margin-bottom: 12px;
+ margin-left: 7px;
+ margin-top:2px;
+ padding:3em 0 0 14px;		
+ width:222px;	
+}
 
+div#calendar div.views ul li strong,
+div#calendar div.nav {
+ background:#2561A8;
+}
+div#calendar div.views ul li a,
+div#calendar div.views ul li a:link,
+div#calendar div.views ul li a:visited,
+div#calendar div.views ul li a:hover,
+div#calendar div.views ul li a:active,
+div#calendar div.views ul li a:focus {
+ background:#E3ECF6;	
+}
+div#calendar div.views ul li a:hover,
+div#calendar div.views ul li a:active,
+div#calendar div.views ul li a:focus {
+ background-color:#D0DCFA;
+} 
+
+.gridAndOptions .calendarGrid,
 .events .calendarGrid {
- border: 0;
- padding: 0;
+ border:0;
+ padding:0;
  background:#E3ECF6;	
  color:#333;
  float:right;	
  font-weight:bold;
  margin:0 10px 0 0;
- width:195px;	
  width:188px;	 
 }
 .content-tertiary .events #calendar,
 .content-tertiary .events .calendarGrid {
  float:none; 
+}
+div#calendar div.gridAndOptions div.calendarGrid {
+ float:none;	
+ margin:0;
+ width:188px;	
 }
 .content-tertiary .events h2 {
  font-size:1.166666em; /* 14px */
@@ -1003,15 +1037,7 @@ nav.button a:focus {
  margin:1.285714em 0;
  text-transform:uppercase;
 }
-/*
-.events .calendarGrid {
- font-size:1em;
- line-height:1.5em;
- padding:0 2.5em;	
- position:relative;	
- text-align:center;
-}
-*/
+.gridAndOptions .calendarGrid h4,
 .events .calendarGrid h4 {
  color:#333;	
  display:inline;
@@ -1021,6 +1047,7 @@ nav.button a:focus {
  margin:0;
  padding:0 2.5em;
 }
+.gridAndOptions #calendar header.month .previous,
 .events #calendar header.month .previous {
  left:1em;
  position:absolute;
@@ -1030,6 +1057,7 @@ nav.button a:focus {
 .events #calendar header.month ol li {
  display:inline;	
 }
+.gridAndOptions #calendar header.month .next,
 .events #calendar header.month .next {
  right:1em;
  position:absolute;
@@ -1041,33 +1069,44 @@ nav.button a:focus {
 .events #calendar header.month a:focus {
  text-decoration:none; 
 }
+.gridAndOptions .calendarGrid table,
 .events .calendarGrid table {
  width:100%;
 }
+.gridAndOptions .calendarGrid th,
 .events .calendarGrid th {
  font-size:0.75em;
  line-height:2em;
  min-height:2em; 
 }
+.gridAndOptions .calendarGrid td,
 .events .calendarGrid td {
  border:1px solid #B5C7D7;
  line-height:26px;  
  min-height:26px; 
  border-width:1px 1px 0 0;
 }
+.gridAndOptions .calendarGrid td:last-child,
 .events .calendarGrid td:last-child {
  border-right-width:0;
 }
+.gridAndOptions .calendarGrid td a,
 .events .calendarGrid td a {
  padding: 0;
 }
+.gridAndOptions .calendarGrid td.currentlyViewing,
 .events .calendarGrid td.currentlyViewing {
  /*background-color:#D6E3F6;*/
  background:#E3ECF6;	
 }
-.events .calendarGrid td.today  {
+.gridAndOptions .calendarGrid td.today,
+.gridAndOptions .calendarGrid td.today,
+.events .calendarGrid td.today,
+.events .calendarGrid td.today {
  background-color: #D0DCFA;
 }
+.gridAndOptions .calendarGrid td,
+.gridAndOptions .calendarGrid th,
 .events .calendarGrid td,
 .events .calendarGrid th {
  font-weight:bold;	
@@ -1076,7 +1115,11 @@ nav.button a:focus {
  vertical-align:middle;
  padding: 0;
 }
-
+#calendar .gridAndOptions .calendarGrid table a:link,
+#calendar .gridAndOptions .calendarGrid table a:visited,
+#calendar .gridAndOptions .calendarGrid table a:hover,
+#calendar .gridAndOptions .calendarGrid table a:active,
+#calendar .gridAndOptions .calendarGrid table a:focus,
 .events .calendarGrid table a:link,
 .events .calendarGrid table a:visited,
 .events .calendarGrid table a:hover,
@@ -1088,11 +1131,37 @@ nav.button a:focus {
  height:100%;
  text-decoration:none;
 }
+.gridAndOptions .calendarGrid table a:hover,
 .events .calendarGrid table a:hover {
  background:#fff;	
 }
 
+#content div#calendar div.options h4, 
+#content div#calendar div.dateJump h4, 
+#content div#calendar div.gridAndOptions div.search h4 {
+ font-size:1.16666666666666em;	/* 12px * 1.75em = 14px  eng­lish or augustin */
+ font-style:normal;
+ line-height:1.285714em;
+ margin:1.071428em 0 0.214285em;		
+}
+#content div#calendar div.options ul,
+#content div#calendar div.options li {
+ font-size:1em;		
+ list-style:disc outside none;
+ margin:0;	
+ padding:0;
+}
+#content div#calendar div.options li {
+ margin-left:1.181818em;	
+}
+div#calendar div.options div {
+ border:none;	
+}
 
+#content #calendar .foot {
+ left:-999em;
+ position:absolute;
+}
 
 .content-secondary .events {	
  margin:1.5em 0;
@@ -1101,11 +1170,7 @@ nav.button a:focus {
 .content-secondary .events .hfeed {
  padding-top:1.5em;
 }
-
-
-
-
-
+/* \\\ Events /// */
 
 
 
