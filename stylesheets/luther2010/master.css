@@ -927,6 +927,16 @@ nav.button a:focus {
  width: 240px;
 }
 
+
+
+
+
+
+.style-one-column .content-primary {
+ padding-right:0;
+ width:702px;
+}
+
 .events .calendarGrid {
  border: 0;
  padding: 0;
