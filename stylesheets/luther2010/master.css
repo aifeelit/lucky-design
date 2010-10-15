@@ -508,7 +508,7 @@ nav.site-info a:focus {
 aside.banners {
  clear:both;
  float:left;
- margin:0 7px 0.75em;
+ margin:0 7px; 
  width:950px;
 }
 aside.banners li {
@@ -1371,6 +1371,9 @@ aside.quote .break {
 
 
 /* /// Footer \\\ */
+#footer {
+ margin:.818181em 0 3.272727em; 	
+}
 footer.site-info {
  background:#0B2147;
  border:7px solid #8DA1B4; 
@@ -1381,8 +1384,6 @@ footer.site-info {
  color:rgba(255,255,255,0.8);
  font-size:0.833333em;
  line-height:1.8em;
- margin:.9em -10px 3.6em;
- margin:.9em -0 3.6em; 
  padding:0.9em 10px;
  text-align:center;
  text-transform:uppercase;
