@@ -1130,32 +1130,6 @@ nav.button a:focus {
 /* \\\ News /// */
 
 
-.gallery {
- overflow:auto;	
- padding:0 0 3em;
- position:relative;
-}
-.gallery h2 {
- font-size:1em;
- line-height:1.5em;
- margin:0;
- position:absolute;
- bottom:0.75em;
- 
-}
-.gallery ul {
- margin:0;	
-}
-.gallery li {
- height:64px;
- float:left;
- margin:0 8px 8px 0;
- width:64px;
-}
-
-
-
-
 
 /* /// Spotlight \\\ */
 .spotlight {
