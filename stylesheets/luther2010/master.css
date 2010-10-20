@@ -531,13 +531,15 @@ aside.banners li {
  position:relative;
  width:233px; 
 }
-aside.banners li:nth-of-type(4n+1) {
+aside.banners li:nth-of-type(4n+1),
+.content-secondary aside.banners li:nth-of-type(4n+3) {
  background:url("/images/luther2010/banners/transparent/yellow.png") repeat-y scroll 0 0 #ECA424;
 }
 aside.banners li:nth-of-type(4n+2) {
  background:url("/images/luther2010/banners/transparent/green.png") repeat-y scroll 0 0 #40852D;
 }
-aside.banners li:nth-of-type(4n+3) {
+aside.banners li:nth-of-type(4n+3),
+.content-secondary aside.banners li:nth-of-type(4n+1) {
  background:url("/images/luther2010/banners/transparent/blue.png") repeat-y scroll 0 0 #004788;
 }
 aside.banners li:nth-of-type(4n+4) {
