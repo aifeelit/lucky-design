@@ -75,11 +75,18 @@ body {
  max-width:450px;
 }
 
+.content dl,
+.content dd,
 .content p,
 .content ol,
 .content ul {
  margin:0 0 1.5em;	
 }
+.content dt {
+ font-weight:bold;	
+}
+
+
 .style-home-01 .content-primary p:first-of-type {
  font-size:1.333333em;
  line-height:1.6875em;
