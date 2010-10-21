@@ -784,10 +784,10 @@ header.blue-stripe > h1 > span {
  font-size:1em;
  font-weight:bold;
  line-height:1.5em;
- margin:1.5em 0;
+ margin:1.5em 0 0;
 }
-.contact-information h3 {
- margin-bottom:0;
+.contact-info > h2:first-of-type {
+ margin-bottom:1.5em;
 }
 .contact-information .vcard {
  margin:18px	
