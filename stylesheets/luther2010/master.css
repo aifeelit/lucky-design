@@ -450,7 +450,7 @@ header.global #luther-logo {
  border-left:7px solid #95B3CD;	
  background:#E5ECF0 url(/images/luther2010/backgrounds/nav-section-gradient-background.png) repeat-x;
  background-image:-moz-linear-gradient(0 340px 90deg, #E5ECF0, #FFFFFF); /* FF3.6 */
- background-image:-webkit-gradient(linear, 0 0, 0 340px, from(#FFFFFF), to(#E5ECF0)); /* Saf4+, Chrome */
+ background-image:-webkit-gradient(linear, 0 0, 0 340, from(#FFFFFF), to(#E5ECF0)); /* Saf4+, Chrome */
  color:#000; 
  margin:0 0 0 -7px;
  padding:0 0 1.5em 9px;
