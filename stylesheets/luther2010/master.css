@@ -58,6 +58,12 @@ body {
  float:left;	
  width:234px; 
 }
+.content strong {
+ font-weight:bold;	
+}
+.content em {
+ font-style:italic;	
+}
 
 .content figure {
  margin:0 0 1.5em;
@@ -82,12 +88,8 @@ body {
 .content ul {
  margin:0 0 1.5em;	
 }
-.content dt,
-.content strong {
+.content dt {
  font-weight:bold;	
-}
-.content em {
- font-style:italic;	
 }
 
 .style-home-01 .content-primary p:first-of-type {
@@ -154,6 +156,19 @@ body {
  font-weight:normal;
  line-height:1em;
  margin:0 0 0.928571em;
+}
+
+
+#pageContent ul,
+#pageContent ul li {
+ list-style:disc outside;
+}
+#pageContent ol,
+#pageContent ol li {
+ list-style:decimal outside;
+}
+#pageContent li {
+ margin-left:1.25em;
 }
 
 .content-primary {
