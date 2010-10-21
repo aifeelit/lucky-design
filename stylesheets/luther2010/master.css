@@ -786,12 +786,16 @@ header.blue-stripe > h1 > span {
  line-height:1.5em;
  margin:1.5em 0 0;
 }
-.contact-info > h2:first-of-type {
+.contact-info {
+ margin-left:18px	
+}
+.contact-info > h1:first-child,
+.contact-info > h2:first-child,
+.contact-info > h3:first-child {
  margin-bottom:1.5em;
+ margin-left:-18px 
 }
-.contact-information .vcard {
- margin:18px	
-}
+
 
 
 /* \\\ Contact /// */
