@@ -82,10 +82,13 @@ body {
 .content ul {
  margin:0 0 1.5em;	
 }
-.content dt {
+.content dt,
+.content strong {
  font-weight:bold;	
 }
-
+.content em {
+ font-style:italic;	
+}
 
 .style-home-01 .content-primary p:first-of-type {
  font-size:1.333333em;
