@@ -525,6 +525,8 @@ aside.banners {
 }
 aside.banners li {
  background:url("/images/luther2010/banners/transparent/blue.png") repeat-y scroll 0 0 transparent;
+ background-image:-moz-linear-gradient(110px 200px 0deg, #004788, #789DC0); /* FF3.6 */
+ background-image:-webkit-gradient(linear, 110 0, 200 0, from(#004788), to(#789DC0)); /* Saf4+, Chrome */     
  float:left;
  margin:0 6px 0 0;
  overflow:hidden;
@@ -534,16 +536,24 @@ aside.banners li {
 aside.banners li:nth-of-type(4n+1),
 .content-secondary aside.banners li:nth-of-type(4n+3) {
  background:url("/images/luther2010/banners/transparent/yellow.png") repeat-y scroll 0 0 #ECA424;
+ background-image:-moz-linear-gradient(110px 200px 0deg, #ECA424, #F4CC82); /* FF3.6 */
+ background-image:-webkit-gradient(linear, 110 0, 200 0, from(#ECA424), to(#F4CC82)); /* Saf4+, Chrome */   
 }
 aside.banners li:nth-of-type(4n+2) {
  background:url("/images/luther2010/banners/transparent/green.png") repeat-y scroll 0 0 #40852D;
+ background-image:-moz-linear-gradient(110px 200px 0deg, #40852D, #95BB8A); /* FF3.6 */
+ background-image:-webkit-gradient(linear, 110 0, 200 0, from(#40852D), to(#95BB8A)); /* Saf4+, Chrome */    
 }
 aside.banners li:nth-of-type(4n+3),
 .content-secondary aside.banners li:nth-of-type(4n+1) {
  background:url("/images/luther2010/banners/transparent/blue.png") repeat-y scroll 0 0 #004788;
+ background-image:-moz-linear-gradient(110px 200px 0deg, #004788, #789DC0); /* FF3.6 */
+ background-image:-webkit-gradient(linear, 110 0, 200 0, from(#004788), to(#789DC0)); /* Saf4+, Chrome */  
 }
 aside.banners li:nth-of-type(4n+4) {
  background:url("/images/luther2010/banners/transparent/red.png") repeat-y scroll 0 0 #A51C18;
+ background-image:-moz-linear-gradient(110px 200px 0deg, #A51C18, #D08684); /* FF3.6 */
+ background-image:-webkit-gradient(linear, 110 0, 200 0, from(#A51C18), to(#D08684)); /* Saf4+, Chrome */   
  margin:0; 
 }
 aside.banners li a {
