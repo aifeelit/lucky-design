@@ -979,7 +979,8 @@ nav.button a:focus {
  width:195px;	
  width:188px;	 
 }
-.content-tertiary .events #calendar {
+.content-tertiary .events #calendar,
+.content-tertiary .events .calendarGrid {
  float:none; 
 }
 .content-tertiary .events h2 {
