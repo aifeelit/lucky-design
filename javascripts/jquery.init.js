@@ -200,3 +200,43 @@ $(document).ready(function() {
     };
  
 } )( jQuery );
+
+
+/*
+ * marcomm functions
+ * Faust Gertz
+ */
+(function($){
+	jQuery.luther = {
+		columnize:
+			function() { 
+				
+				var $leftColumn = $('<div class="column1" />')
+									.insertBefore('.two-column > div.section:first')
+									.append($('.two-column div.section')),
+					$rightColumn = $('<div class="column2" />')
+									.insertAfter($leftColumn),
+					$sections = $leftColumn
+								 .find('> div.section'),
+					targetHeight = $leftColumn
+									.height() / 2 + $sections.position().top;
+				$sections
+				 .each(
+					   function(i) {
+							if(($(this).position().top)>=targetHeight) {
+								$rightColumn.append($sections.slice(i));
+								return false;
+							}
+						}
+				 );
+			},
+	}
+})(jQuery);
+
+
+jQuery(function($){ 
+  var $twocolumn = $('.two-column');  
+  if ($twocolumn.length != -1) {
+   $.luther.columnize();
+  } 
+}); 
