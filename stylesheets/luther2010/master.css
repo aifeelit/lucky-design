@@ -1361,6 +1361,56 @@ nav.button a:focus {
  text-transform:uppercase;
 }
 
+
+
+
+/* // DIVs for Columns Created by jQuery \\ */
+#pageContent ul, 
+#pageContent ul li {
+ list-style:none;
+}
+#pageContent .two-column li {
+ margin:0 0 0.75em;	
+}
+.two-column div.section {
+ margin:0 0 1.5em;		
+}
+.two-column div.section a:link,
+.two-column div.section a:visited,
+.two-column div.section a:hover,
+.two-column div.section a:active,
+.two-column div.section a:focus {
+ color:#333;		
+ text-decoration:none;	
+}
+.two-column {
+ position:relative;	
+}
+.two-column .column1,
+.two-column .column2 {
+ float:left;
+ position:relative;
+ width:215px;
+}
+.two-column  .column2 {
+ float:right;
+}
+/* \ DIVs for Columns Created by jQuery / */
+/* / Sections \ */
+.two-column  .div.section {
+/* font-size:0.833333em; */   /* 10px */
+/* line-height:1.6em; */      /* 16px */
+}
+.two-column div.section h1 {
+ font-size:1.16666666666666em;	/* 12px * 1.75em = 14px  eng­lish or augustin */
+ font-weight:bold;
+ line-height:1.285714em;
+ margin:1.071428em 0 0.214285em;	
+ text-transform:uppercase;
+}
+
+
+
 #contact #abstract {
  background:#808080 url(/contact/images/contact-background.jpg) no-repeat;	
  color:#fff; 
