@@ -236,7 +236,7 @@ $(document).ready(function() {
 
 jQuery(function($){ 
   var $twocolumn = $('.two-column');  
-  if ($twocolumn.length != -1) {
+  if ($twocolumn.length > 0) {
    $.luther.columnize();
   } 
 }); 
