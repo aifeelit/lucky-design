@@ -1326,7 +1326,15 @@ nav.button a:focus {
  left:-999em;
  position:absolute;
 }
-
+#spotlightcontent .figure {
+ margin-right:0;
+ margin-top:0;
+}
+#spotlightcontent .figure img {
+ border:0;	
+ max-width:250px;
+ padding:0 0 3px;
+}
 /* \\\ Spotlight /// */
 
 
