@@ -1305,6 +1305,32 @@ nav.button a:focus {
  display:block;	
 }
 
+
+.spotlight-archive  #meat .contentPost #blog.publication .moduleNav ul.posts li.post { 
+ margin:0;	
+ padding:0;
+}
+
+.spotlight-archive #meat .contentPost #blog.publication .moduleNav ul.posts li.post h4.title {
+ font-size:1em;	
+ font-weight:normal;
+ line-height:1.5em; /* 12px * 1.5em = 18px */	 
+ margin:0;	
+}
+.spotlight-archive .content h3 {
+ margin-top:0;	
+}
+.spotlight-archive .date,
+.spotlight-archive .desc,
+.spotlight-archive .links {
+ left:-999em;
+ position:absolute;
+}
+
+/* \\\ Spotlight /// */
+
+
+
 .contentcontainer {
  background:#fff;	
  border-bottom:1.5em solid #fff;
@@ -1314,6 +1340,8 @@ nav.button a:focus {
 .text2cola .contentcontainer {
  background:#fff url(/images/luther2010/backgrounds/rules-content-page.png) no-repeat;
 }
+
+
 
 /* / Figure Abstract \ */
 #section-sign {
