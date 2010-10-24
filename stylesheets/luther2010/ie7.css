@@ -1,3 +1,20 @@
+/* /// Content \\\ */
+
+/* Added #home.style-00 .container to account for div.container being added to style-home-00.
+   div.container was not in the original mark-up and was causing layout problems because it 
+   restricted width to 950 pixels.
+*/
+.style-home-00 .container { 
+ background:#e0ebf4 url(/images/luther2010/backgrounds/html-body-gradient-background.png) repeat-x 0 -144px; 
+}
+#home .container-events-news-and-spotlight,
+.spotlight {
+ position:relative;	
+}
+nav.button {
+ margin-bottom:1em;	
+}
+
 #nav-search ul {
  float:right;	
 }
