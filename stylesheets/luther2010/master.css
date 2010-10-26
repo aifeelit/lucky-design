@@ -1492,8 +1492,8 @@ div#calendar div.options div {
 
 
 /* // DIVs for Columns Created by jQuery \\ */
-#pageContent ul, 
-#pageContent ul li {
+#pageContent .two-column div.section ul, 
+#pageContent .two-column div.section ul li {
  list-style:none;
 }
 #pageContent .two-column li {
