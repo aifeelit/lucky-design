@@ -171,6 +171,34 @@ body {
  margin-left:1.25em;
 }
 
+/* / Tables \ */
+.content-primary table {
+ background:#f5f5f5;
+ border:1px solid #999;
+ border-collapse:collapse;
+ margin-bottom:1.416666em;
+ width:100%;
+}
+.content-primary th, 
+.content-primary td, 
+.content-primary caption {
+ border:0.833333px solid #999;
+ font-weight:normal;
+ padding:0.333333em 0.5em;
+ text-align:left; 
+}
+.content-primary caption {
+ background:#eee;
+}
+.content-primary thead th,
+.content-primary thead td {
+ background:#E3ECF6;
+ background:#E5ECF0;
+}
+/* \ Tables / */
+
+
+
 .content-primary {
  padding:4.5em 13px 0 14px;
  position:relative;
