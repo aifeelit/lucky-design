@@ -1706,6 +1706,30 @@ body#pageLRC .gallery-info #gallerycontainer, body#primaryLRC .gallery-info #gal
   float:left;
   display:block;
 }
+#gallery .flickr-set-container {
+  margin: 10px 0 0 0;
+}
+.flickr-set-container {
+  float:left;
+  /*height:162px;*/
+  padding: 0 14px 0 0;
+  text-align:left;
+  width:112px;
+}
+.flickr-set-container h4 {
+ margin: 0 0 0.214285em;
+}
+.flickr-set {
+  background:transparent url(/images/slideshow91x95.gif) no-repeat scroll 0 0;
+  height:95px;
+  margin-bottom:5px;
+  margin-top:5px;
+  padding:7px 0 0 7px;
+  width:91px;
+}
+.flickr-set img {
+  border:1px solid #333333;
+}
 /* \\\ Galleries /// */
 
 
