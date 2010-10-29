@@ -197,8 +197,6 @@ body {
 }
 /* \ Tables / */
 
-
-
 .content-primary {
  padding:4.5em 13px 0 14px;
  position:relative;
@@ -1709,3 +1707,28 @@ body#pageLRC .gallery-info #gallerycontainer, body#primaryLRC .gallery-info #gal
   display:block;
 }
 /* \\\ Galleries /// */
+
+
+/* /// Campus Directory \\\ */
+body.directory .content-primary {
+ width:692px;
+}
+body.directory .content-primary table {
+ background:#ffffff;
+ border:none;
+}
+body.directory .content-primary th, 
+body.directory .content-primary td, 
+body.directory .content-primary caption {
+ border:none;
+ padding: 0 5px 0 0;
+}
+body.directory .content-primary tr.ultra-light {
+ background: #eeeeee;
+}
+body.directory .content-primary tr.light {
+ background: #dddddd;
+}
+/* \\\ Campus Directory /// */
+
+
