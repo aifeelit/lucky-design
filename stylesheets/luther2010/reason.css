@@ -171,22 +171,22 @@ div.assets a strong {
 #disco_form {
 	padding-bottom:15px;
   	margin-bottom:5px;
-  	background-color: #E3EDFF;
+  	background-color: transparent;
 }
 
-#disco_form table.thorTable{
+#disco_form table  {
 	width:90%;
 	margin:6px;
-	background-color: #E3EDFF;
+  	background-color: transparent;
 }
 
-table.thorTable tbody {
+#disco_form table tbody {
 	border-style: hidden;
-	background-color: #E3EDFF;
+  	background-color: transparent;
 
 }
 
-table.thorTable textarea{
+#disco_form table textarea {
 	width:95%;
 	height:75px;
 	border-top: 2px inset silver;
@@ -195,32 +195,44 @@ table.thorTable textarea{
 	border-left: 1px solid silver;
 }
 
-table.thorTable div.checkBoxGroup table, 
-table.thorTable div.radioButtons table {
+#disco_form table div.checkBoxGroup table, 
+#disco_form table div.radioButtons table {
 	width: auto;
+	background: transparent;
 }
-table.thorTable div.checkBoxGroup th,
-table.thorTable div.checkBoxGroup td {
+#disco_form table div.checkBoxGroup th,
+#disco_form table div.checkBoxGroup td {
 	padding: 0 5px 1px 0;
 }
-table.thorTable div.checkBoxGroup td label {
+#disco_form table div.checkBoxGroup td label {
 	position: relative;
 	top: 1px;
 }
-table.thorTable div.radioButtons th,
-table.thorTable div.radioButtons td {
+#disco_form table div.radioButtons th,
+#disco_form table div.radioButtons td {
 	padding: 0 5px 4px 0;
 }
-table.thorTable div.radioButtons td label {
+#disco_form table div.radioButtons td label {
 	position: relative;
 	top: 2px;
+}
+#disco_form table thead th, 
+#disco_form table thead td { 
+ background: transparent;
+}
+#disco_form table td h3 {
+ margin: 0 0 0.333333em;
+}
+#disco_form table td h4 {
+ margin: 0 0 0.214285em;
 }
 
 #requiredtextRow .td.words {
 	text-align: left;
 }
 
-table.thorTable td.words {
+//table.thorTable td.words, 
+#disco_form table td.words {
 	padding: 0.5em;
 	vertical-align: top;
 }
