@@ -173,7 +173,7 @@ body {
 
 /* / Tables \ */
 .content-primary table {
- background:#f5f5f5;
+ background:#FFF6F2;
  border:1px solid #999;
  border-collapse:collapse;
  margin-bottom:1.416666em;
@@ -188,12 +188,11 @@ body {
  text-align:left; 
 }
 .content-primary caption {
- background:#eee;
+ background:#f2f2f2;
 }
 .content-primary thead th,
 .content-primary thead td {
- background:#E3ECF6;
- background:#E5ECF0;
+ background:#E5E5E5;
 }
 /* \ Tables / */
 
@@ -1097,13 +1096,16 @@ div#calendar div.gridAndOptions div.calendarGrid {
 }
 .gridAndOptions .calendarGrid table,
 .events .calendarGrid table {
- width:100%;
+ background:transparent;
+ border:none;
+ margin-bottom:0;
 }
 .gridAndOptions .calendarGrid th,
 .events .calendarGrid th {
  font-size:0.75em;
  line-height:2em;
  min-height:2em; 
+ border:0;
 }
 .gridAndOptions .calendarGrid td,
 .events .calendarGrid td {
