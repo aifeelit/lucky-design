@@ -1749,8 +1749,13 @@ body.directory .content-primary caption {
  border:none;
  padding: 0 5px 0 0;
 }
+body.directory .content-primary td,
+body.directory .content-primary tr {
+ vertical-align: top;
+}
 body.directory .content-primary tr.ultra-light {
  background: #eeeeee;
+
 }
 body.directory .content-primary tr.light {
  background: #dddddd;
