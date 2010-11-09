@@ -1762,4 +1762,22 @@ body.directory .content-primary tr.light {
 }
 /* \\\ Campus Directory /// */
 
+/* /// Dada Mail \\\ */
+body.dada .content-primary {
+ width: 692px;
+}
+body.dada .content-primary fieldset {
+ border: 1px solid #aaaaaa; 
+ width: 75%; 
+ margin: 0 0 20px 0;
+ padding: 10px;
+}
+body.dada .content-primary li {
+ list-style: disc; 
+ margin: 0 0 0 25px;
+}
+body.dada .content-primary img {
+ display: inline; 
+}
 
+/* \\\ Dada Mail /// */
