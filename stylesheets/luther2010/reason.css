@@ -281,10 +281,12 @@ div#av div.moduleNav ul li a:hover img.av-play {
   border: none;
 }
 .content-tertiary div#av div.moduleNav ul li img {
-  margin: 0 20px 15px 0;
+  /*margin: 0 20px 15px 0;*/
+  margin: 0 -4px 3px 0;
 }
 .content-tertiary div#av div.moduleNav ul li img.av-play {
-  margin: -88px 60px 0 0;
+  /*margin: -88px 60px 0 0;*/
+  margin: -78px 35px 0 0;
 }
 
 .contentPost div#av {
