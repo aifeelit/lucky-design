@@ -62,6 +62,24 @@ body#home ul.pubLinks, body#primaryLRC ul.pubLinks {
   line-height:1.25;
 }
 
+/* Children with images */
+#meat #content .childrenListWithImages li {
+  display:inline-block;
+  margin-bottom:10px;
+}
+#meat #content .childrenListWithImages .tnImage {
+  width:140px;
+  display:block;
+  float:left;
+  margin-top:5px;
+}
+#meat #content .childrenListWithImages h4,
+#meat #content .childrenListWithImages .childDesc {
+  margin-top: 0;
+  width:312px;
+  float: right;
+}
+
 /* publication */
 #meat .contentPost #blog.publication .persistent {
   display: none;
