@@ -202,7 +202,7 @@ div.assets a strong {
 /*Forms -- css for Reason/Thor generated forms -sls
 */
 #content form td, #content form th, #content form tr{
-        /*border-style: hidden;*/
+        border-style: hidden;
         border-color: transparent;
 
 }
@@ -219,7 +219,7 @@ div.assets a strong {
 }
 
 #disco_form table tbody {
-        /*border-style: hidden;*/
+        border-style: hidden;
         border-color: transparent;
   	background-color: transparent;
 }
