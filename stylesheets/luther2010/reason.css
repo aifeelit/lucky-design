@@ -64,11 +64,13 @@ body#home ul.pubLinks, body#primaryLRC ul.pubLinks {
 
 /* Publication list of news articles and children with images */
 #meat #content .publication ul.posts li.post,
+#meat #content .relatedPub ul.posts li.post,
 #meat #content .childrenListWithImages li {
   display:inline-block;
   margin-bottom:10px;
 }
 #meat #content .publication ul.posts li.post .teaserImage,
+#meat #content .relatedPub ul.posts li.post .teaserImage,
 #meat #content .childrenListWithImages .tnImage {
   width:140px;
   display:block;
@@ -78,33 +80,49 @@ body#home ul.pubLinks, body#primaryLRC ul.pubLinks {
 }
 #meat #content .publication ul.posts li.post h4.title,
 #meat #content .publication ul.posts li.post .desc,
+#meat #content .relatedPub ul.posts li.post h4,
+#meat #content .relatedPub ul.posts li.post .desc,
 #meat #content .childrenListWithImages h4,
 #meat #content .childrenListWithImages .childDesc {
   margin-top: 0;
   width:312px;
   float: right;
 }
+.style-home-01 #meat #content .relatedPub h3 {
+  display: none;
+} 
 
 /* publication */
-#meat .contentPost #blog.publication .persistent {
+#meat .contentPost #blog.publication .persistent, 
+#meat .contentPost .relatedPub .persistent {
   display: none;
 }
 #meat .contentPost #blog.publication .moduleNav ul.posts, 
+#meat .contentPost .relatedPub .moduleNav ul.posts, 
 #meat .contentPost #blog.publication .item .fullPost .relatedItems ul {
   list-style-type: none;
   /*margin: 0 1em 2em 0;*/
 }
-#meat .contentPost #blog.publication .moduleNav ul.posts li.post{
+#meat .contentPost #blog.publication .moduleNav ul.posts li.post,
+#meat .contentPost .relatedPub .moduleNav ul.posts li.post {
   border-top: none; 
   font-size: 1.0em;
   padding:0 0 10px 0;
 }
-#meat .contentPost #blog.publication .moduleNav ul.posts li.post h4.title{
+#meat .contentPost #blog.publication .moduleNav ul.posts li.post h4.title,
+#meat .contentPost .relatedPub .moduleNav ul.posts li.post h4 {
   font-size: 1.1em;
   font-weight: bold;
   margin: 0 0 0.5em 0;
 }
-#meat .contentPost #blog.publication .moduleNav ul.posts li.post .date {
+#meat .contentPost #blog.publication .moduleNav ul.posts li.post p:first-of-type,
+#meat .contentPost .relatedPub .moduleNav ul.posts li.post p:first-of-type {
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0 0 1.5em;
+}
+#meat .contentPost #blog.publication .moduleNav ul.posts li.post .date,
+#meat .contentPost .relatedPub .moduleNav ul.posts li.post .date {
   display: none;
   /*font-size: 0.95em;*/
   /*margin: 0 0 0.5em 0;*/
