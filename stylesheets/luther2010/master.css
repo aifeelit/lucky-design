@@ -1598,7 +1598,6 @@ footer.site-info {
 }
 /* \\\ Footer /// */
 
-
 /* /// Images \\\ */
 /* figure includes image and caption */
 .figure {
@@ -1623,12 +1622,22 @@ footer.site-info {
 
 /* \\\ Images /// */
 
+.video .fullsize {
+  border:1px solid silver;
+  padding:3px;
+  margin:0;
+}
+#av hr {
+  height: 0;
+}
+
 /* /// Galleries \\\ */
 .gallery,
 #gallery {
  overflow:auto;	
  padding:0 0 3em;
  position:relative;
+ width:100%;
 }
 .gallery h2,
 #gallery h2 {
@@ -1717,6 +1726,7 @@ body#pageLRC .gallery-info #gallerycontainer, body#primaryLRC .gallery-info #gal
 }
 .content.content-tertiary .gallery.group .gallery-info #gallerycontainer h3 {
   font-size: 1.2em;
+  line-height: 1.2;
 }
 #gallery .flickr-set-container {
   margin: 10px 0 0 0;
