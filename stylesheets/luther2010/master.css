@@ -216,6 +216,16 @@ body {
  top:1.5em;
 }
 
+.luther-social-media {
+ position:absolute;
+ left: 8px;
+ top: 5px;
+}
+.luther-social-media img {
+ display:inline;
+ /*height:24px;*/
+ /*width:24px;*/
+}
 
 
 h2.section {
@@ -1595,6 +1605,7 @@ footer.site-info {
  text-align:center;
  text-transform:uppercase;
  width:930px;
+ position:relative;
 }
 /* \\\ Footer /// */
 
@@ -1622,7 +1633,7 @@ footer.site-info {
 
 /* \\\ Images /// */
 
-.video .fullsize {
+#av .video.fullsize embed {
   border:1px solid silver;
   padding:3px;
   margin:0;
