@@ -160,14 +160,19 @@ body {
 
 
 #pageContent ul,
-#pageContent ul li {
+#pageContent ul li, 
+#blog.publication ul,
+#blog.publication ul li {
  list-style:disc outside;
 }
 #pageContent ol,
-#pageContent ol li {
+#pageContent ol li,
+#blog.publication ol,
+#blog.publication ol li {
  list-style:decimal outside;
 }
-#pageContent li {
+#pageContent li,
+#blog.publication li {
  margin-left:1.25em;
 }
 
@@ -216,16 +221,6 @@ body {
  top:1.5em;
 }
 
-.luther-social-media {
- position:absolute;
- left: 8px;
- top: 5px;
-}
-.luther-social-media img {
- display:inline;
- /*height:24px;*/
- /*width:24px;*/
-}
 
 
 h2.section {
@@ -1605,7 +1600,6 @@ footer.site-info {
  text-align:center;
  text-transform:uppercase;
  width:930px;
- position:relative;
 }
 /* \\\ Footer /// */
 
