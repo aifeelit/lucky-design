@@ -161,18 +161,18 @@ body {
 
 #pageContent ul,
 #pageContent ul li, 
-#blog.publication ul,
-#blog.publication ul li {
+#blog.publication .fullPost ul,
+#blog.publication .fullPost ul li {
  list-style:disc outside;
 }
 #pageContent ol,
 #pageContent ol li,
-#blog.publication ol,
-#blog.publication ol li {
+#blog.publication .fullPost ol,
+#blog.publication .fullPost ol li {
  list-style:decimal outside;
 }
 #pageContent li,
-#blog.publication li {
+#blog.publication .fullPost li {
  margin-left:1.25em;
 }
 
