@@ -141,14 +141,10 @@ carousel.config.$slider.append($clone);
 
 
 
-
-
-
-
-
 $(document).ready(function() {
 	carousel.init();
 	$("#search label").overlabel();
+	$(".emergency").effect("pulsate", { times:3 }, 2000);
 
 });
 

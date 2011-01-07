@@ -1804,5 +1804,21 @@ body.dada .content-primary li {
 body.dada .content-primary img {
  display: inline; 
 }
-
 /* \\\ Dada Mail /// */
+
+/* /// Emergency message \\\ */
+.emergency {
+ background: #FFB6C1;
+ width: 100%;
+ margin: -4px 0 5px 0;
+ border-width: 1px;
+ border-color: #aa1111;
+ border-style: dashed;
+}
+.emergency p {
+ color:#000000;	
+ font-size:1em;
+ font-weight:bold;
+ padding: 5px 5px 5px 10px;
+}
+/* \\\ Emergency message /// */
