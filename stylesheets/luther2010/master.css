@@ -993,7 +993,7 @@ nav.button a:focus {
 
 .style-home-01 .events .hfeed {
  float:left;	
- width:240px;	
+ /*width:240px;*/
 }
 /* are both of these needed? */
 .content-primary .events.with-calendar .hfeed {
