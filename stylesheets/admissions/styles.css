@@ -698,6 +698,12 @@ ul.nav ul li {
 		color: #ffb347;
 		text-decoration: none;
 		}
+
+	.sidebar a:link h2,
+	.sidebar a:visited h2,
+	.sidebar a:hover h2 {
+		color: #ffffff;
+		}
 	
 	.sidebar .picnav {
 		margin-bottom: 6px;
