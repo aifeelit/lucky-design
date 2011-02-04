@@ -213,6 +213,7 @@ body {
  padding:3em 0 0 14px;	
  width:222px;
 }
+
 /* \\\ Content /// */
 
 .addthis_toolbox {
@@ -1646,6 +1647,8 @@ footer.site-info {
   padding:3px;
   margin:0;
 }
+.content-tertiary #preSidebar hr,
+.content-tertiary #sidebar hr,
 #av hr {
   height: 0;
 }
