@@ -178,9 +178,18 @@ body#home ul.pubLinks, body#primaryLRC ul.pubLinks {
 #meat .contentPost #blog.publication .item .fullPost .date,
 #footer .module1 #maintained, 
 #footer .module2 .editDiv, 
-#meat .contentPost #blog.publication .feedLink,
+/*#meat .contentPost #blog.publication .feedLink,*/
 #footer .module2 p#footerLoginLink  {
   display: none;
+}
+
+div.feedInfo {
+  margin: 0;
+  text-align: left;
+}
+div.feedInfo a, div.feedInfo a:hover {
+  background-color: transparent;
+  border: none;
 }
 
 body#spotlightarchive #meat .contentPost #blog.publication .moduleNav ul.posts li.post .desc,
