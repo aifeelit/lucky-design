@@ -91,6 +91,12 @@ body {
 .content dt {
  font-weight:bold;	
 }
+.content dl li dl,
+.content dd li dd,
+.content ol li ol,
+.content ul li ul{
+ margin:0 0 0.25em;
+}
 
 .style-home-01 .content-primary p:first-of-type {
  font-size:1.333333em;
