@@ -1519,8 +1519,8 @@ div#calendar div.options div {
 .two-column div.section a:hover,
 .two-column div.section a:active,
 .two-column div.section a:focus {
- color:#333;		
- text-decoration:none;	
+ /*color:#333;*/		
+ /*text-decoration:none;*/	
 }
 .two-column {
  position:relative;	
