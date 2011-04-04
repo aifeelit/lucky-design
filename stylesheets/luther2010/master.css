@@ -205,7 +205,37 @@ body {
 .content-primary thead td {
  background:#E5E5E5;
 }
-/* \ Tables / */
+.content-primary .tablesorter thead th,
+.content-primary .tablesorter thead td {
+ background:#d4e4fc;
+}
+.content-primary table.tablesorter {
+ width: 690px;
+}
+.content-primary table.tablesorter thead tr .header {
+	background-image: url(/images/luther2010/interface/asc-desc.png);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+.content-primary table.tablesorter tbody td {
+	padding: 4px;
+	background-color: #fffffa;
+	vertical-align: top;
+}
+.content-primary table.tablesorter tbody tr:nth-child(odd) td {
+	background-color:#F0F0F9;
+}
+.content-primary table.tablesorter thead tr .headerSortUp {
+	background-image: url(/images/luther2010/interface/asc.png);
+}
+.content-primary table.tablesorter thead tr .headerSortDown {
+	background-image: url(/images/luther2010/interface/desc.png);
+}
+.content-primary table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+ background-color:#c0d4f2;
+}
+/* \ Table / */
 
 .content-primary {
  padding:4.5em 13px 0 14px;
