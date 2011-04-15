@@ -209,9 +209,6 @@ body {
 .content-primary .tablesorter thead td {
  background:#d4e4fc;
 }
-.content-primary table.tablesorter {
- width: 690px;
-}
 .content-primary table.tablesorter thead tr .header {
 	background-image: url(/images/luther2010/interface/asc-desc.png);
 	background-repeat: no-repeat;
@@ -1044,7 +1041,7 @@ nav.button a:focus {
 /* /// Events \\\ */
 .style-one-column .content-primary {
  padding-right:0;
- width:702px;
+ width:689px;
 }
 .style-one-column div#calendar div.gridAndOptions {
  background:none;
@@ -1236,6 +1233,9 @@ div#calendar div.options div {
 .content-secondary .events {	
  margin:1.5em 0;
  padding:0 0 0 10px; 
+}
+.style-home-01 .content-secondary .events {	
+ padding:0; 
 }
 .content-secondary .events .hfeed {
  padding-top:1.5em;
