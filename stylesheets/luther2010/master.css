@@ -1461,14 +1461,18 @@ div#calendar div.options div {
  left:-999em;
  position:absolute;
 }
-#spotlightcontent .figure {
+#spotlightimage .figure {
  margin-right:0;
  margin-top:0;
 }
-#spotlightcontent .figure img {
+#spotlightimage .figure img {
  border:0;	
  max-width:250px;
- padding:0 0 3px;
+ max-width:220px;
+ padding:60px 10px 3px 0;
+}
+#meat .contentPost #blog.publication .item #spotlightcontent .images {
+    left: 475px;
 }
 /* \\\ Spotlight /// */
 
