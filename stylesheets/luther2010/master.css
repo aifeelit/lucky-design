@@ -24,6 +24,15 @@ body {
  position:relative;
  width:964px;
 }
+html.sports {
+ background:#111111;
+ background-image:-moz-linear-gradient(0 1000px 90deg, #222222, #000000); /* FF3.6 */
+  background-image:-webkit-gradient(linear, 0 0, 0 1000, from(#222222), to(#000000)); /* Saf4+, Chrome */	
+}
+body.sports {
+ background:#8da1b4;
+ background:#667788;
+}
 /* \\\ HTML & Body /// */
 
 
