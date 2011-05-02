@@ -1524,6 +1524,12 @@ div#calendar div.options div {
  background:#40842D;	
  color:#fff;		
 }
+body.sports #section-sign.blue,
+body.sports #section-sign.blue h1,
+body.sports #section-sign.blue h2 {
+ background:#cccccc;	
+ color:#003388;		
+}
 #section-sign div {	
  display:table;
  min-height:4.5em;	 
