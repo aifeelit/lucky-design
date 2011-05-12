@@ -231,7 +231,7 @@ div.assets a strong {
 #content form td, #content form th, #content form tr{
         border-style: hidden;
         border-color: transparent;
-
+	vertical-align: middle;
 }
 #disco_form {
 	padding-bottom:15px;

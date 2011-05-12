@@ -1002,6 +1002,10 @@ header.blue-stripe > h1 > span {
  margin:0 0 1.5em 4.75em;
  padding:0;	
 }
+.summary .location {
+ color:#191C45;
+ font-weight:normal;
+}
 
 nav.button a:link,
 nav.button a:visited,
