@@ -241,6 +241,29 @@ body.sports {
 .content-primary table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
  background-color:#c0d4f2;
 }
+.content-primary section.events table.tablesorter table, 
+.content-primary section.events table.tablesorter td, 
+.content-primary section.events table.tablesorter th {
+ border:1px solid #ffffff;
+}
+.content-primary section.events table.tablesorter tbody th {
+ background-color: #dddddd;
+ color: #003388;
+ font-weight: bold;
+}
+.content-primary section.events table.tablesorter tbody td {
+	background-color: #fffffa;
+	background-color: #fdfdf6;
+	background-color: #f4f6fb;
+}
+.content-primary section.events table.tablesorter tbody tr:nth-child(odd) td {
+	background-color:#F0F0F9;
+	background-color:#ececf7;
+	background-color:#e0e6f3;
+}
+.content-primary section.events #discoLinear {
+  padding: 0 0 5px 0;
+}
 /* \ Table / */
 
 .content-primary {
@@ -1706,6 +1729,7 @@ footer.site-info {
   padding:3px;
   margin:0;
 }
+.content section.events nav.button hr,
 .content-tertiary #preSidebar hr,
 .content-tertiary #sidebar hr,
 #av hr {
