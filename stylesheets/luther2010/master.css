@@ -1276,6 +1276,9 @@ div#calendar div.options div {
 .content-secondary .events .hfeed {
  padding-top:1.5em;
 }
+body.sports div.eventDetails div.eventContent {
+border: 0;
+}
 /* \\\ Events /// */
 
 
@@ -1923,3 +1926,20 @@ body.dada .content-primary img {
  padding: 5px 5px 5px 10px;
 }
 /* \\\ Emergency message /// */
+
+/* /// Cluetip athlete tooltip \\\ */
+p.athlete_position_event,
+p.athlete_class_year, 
+p.athlete_hometown,
+p.athlete_high_school {
+ width: 265px;
+}
+p.athlete_class_year {
+ margin-bottom: 16px;
+}
+img.athlete_image {
+ float:left;
+ padding: 0 7px 0 0;
+}
+
+/* \\\ Cluetip athlete tooltip /// */

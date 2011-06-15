@@ -177,8 +177,16 @@ $(document).ready(function() {
 	$("#search label").overlabel();
 	$(".emergency").effect("pulsate", { times:3 }, 2000);
         $("table").tablesorter();
+	$("a.cluetip_athlete").cluetip(
+		{local:true,
+		 cluetipClass: 'jtip',
+		 positionBy: 'auto',
+		 arrows: true,
+		 clickThrough: true,
+		 leftOffset: 0,
+		 topOffset: 20,
+		 waitImage: false});
 });
-
 
 ( function( $ ) {
  
