@@ -166,7 +166,8 @@ body.sports {
  margin:0 0 0.285714em;
 }
 
-.style-home-02 .content h1.page-title {	
+.content h2.pageTitle,                 
+.style-home-02 .content h1.page-title {
  font-size:2.333333em;	/* 12px * 2.333333em = 28px  double pica or two-line pica */
  font-weight:normal;
  line-height:1em;
