@@ -317,7 +317,10 @@ nav#breadcrumbs {
 }
 
 
-
+.content-secondary hr {
+ height: 0;
+ margin: 0;  
+}
 
 .content-secondary nav.banners {
  margin:0.75em 0;	
@@ -327,6 +330,29 @@ nav#breadcrumbs {
  float:none;	
  margin:0 0 .75em;
 }
+
+/* username */
+#username {
+ background:#99b7ce;
+ color:#00458a;
+ padding:5px 5px 7px 20px;
+}
+#username a {
+ font-size:1.60em;
+ line-height:0.5;
+ color:#eeeeee;
+}
+#username a:link,
+#username a:visited,
+#username a:hover,
+#username a:active {
+ text-decoration:none;
+}
+#username a:hover {
+ color:#ffe8b8;
+ /*text-decoration:underline;*/
+}
+
 
 
 /* ///  Header \\\ */
@@ -899,13 +925,13 @@ header.blue-stripe > h1 > span {
  margin:1.5em 0 0;
 }
 .contact-info {
- margin-left:18px	
+ /*margin-left:18px*/	
 }
 .contact-info > h1:first-child,
 .contact-info > h2:first-child,
 .contact-info > h3:first-child {
  margin-bottom:1.5em;
- margin-left:-18px 
+ /*margin-left:-18px*/ 
 }
 /* \\\ Contact /// */
 
@@ -1270,9 +1296,6 @@ div#calendar div.options div {
 .content-secondary .events {	
  margin:1.5em 0;
  padding:0 0 0 10px; 
-}
-.style-home-01 .content-secondary .events {	
- padding:0; 
 }
 .content-secondary .events .hfeed {
  padding-top:1.5em;
@@ -1944,3 +1967,72 @@ img.athlete_image {
 }
 
 /* \\\ Cluetip athlete tooltip /// */
+
+/* darker sports site test */
+/*
+body.sports #nav-section, 
+body.sports .container {
+ background: #111111;
+}
+body.sports #nav-section li,
+body.sports #nav-section li a, 
+body.sports #nav-section .navListItem.open.current strong {
+ color: #ffffff;
+}
+body.sports .content h1,
+body.sports .content h2,
+body.sports .content h3,
+body.sports .content h4,
+body.sports .content h5,
+body.sports .content h6 {
+ color: #ffffff;
+}
+body.sports .content p {
+ color: #ffffff;
+}
+body.sports .content a,
+body.sports .content a:link,
+body.sports .content a:visited,
+body.sports .content a:hover,
+body.sports .content a:active,
+body.sports .content a:focus {
+ color:#bbccdd;
+ text-decoration:none;
+}
+body.sports .spotlight article h1.name,
+body.sports .spotlight article h2,
+body.sports .spotlight article .profile,
+body.sports .events .vevent .summary,
+body.sports .summary .location {
+ color: #ffffff;
+}
+body.sports header.blue-stripe > h1 > span, 
+body.sports header.red-stripe > h1 > span {
+ background: #111111;
+ color: #ffffff;
+}
+body.sports .style-home-01 .container {
+    background-position: 0 297px;
+    border-bottom: 1.5em solid #111111;
+}
+*/
+/* minimal darker sports site test */
+body.sports #nav-section, 
+body.sports .content-secondary {
+ background: #111111;
+ background: #445566;
+}
+body.sports #nav-section li,
+body.sports #nav-section li a,
+body.sports #nav-section .navListItem.open.current strong {
+ color: #ffffff;
+}
+body.sports .content-secondary header.blue-stripe > h1 > span {
+ background: #111111;
+ background: #445566;
+ color: #ffffff;
+}
+body.sports .events .vevent .summary,
+body.sports .summary .location {
+ color: #ffffff;
+}
