@@ -685,6 +685,7 @@ aside.banners li:nth-of-type(4n+2) {
  background-image:-moz-linear-gradient(110px 200px 0deg, #40852D, #95BB8A); /* FF3.6 */
  background-image:-webkit-gradient(linear, 110 0, 200 0, from(#40852D), to(#95BB8A)); /* Saf4+, Chrome */    
 }
+body.sports .content-secondary aside.banners li,
 aside.banners li:nth-of-type(4n+3),
 .content-secondary aside.banners li:nth-of-type(4n+1) {
  background:url("/images/luther2010/banners/transparent/blue.png") repeat-y scroll 0 0 #004788;
@@ -923,6 +924,11 @@ header.blue-stripe > h1 > span {
  font-weight:bold;
  line-height:1.5em;
  margin:1.5em 0 0;
+}
+body.sports .contact-information h2,
+body.sports .contact-information h3, 
+body.sports .contact-information p {
+ color: #ffffff;
 }
 .contact-info {
  /*margin-left:18px*/	

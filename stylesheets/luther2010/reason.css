@@ -221,6 +221,11 @@ div.contact-info dd, div.contact-info a, div.contact-info a:hover {
   line-height:1.5em;
   margin:0;
 }
+body.sports .contact-info dd,
+body.sports .contact-info a,
+body.sports .contact-info a:hover {
+  color:#a5bbd7;
+}
 div.assets a strong {
   font-weight: normal; 
 }
