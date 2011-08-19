@@ -14,31 +14,22 @@ var carousel = {
 
         // allow overriding the default config
         $.extend(carousel.config, settings);
-
+		if(carousel.config.$wrapper.length < 1)  {
+			return false;
+		}
         carousel.setup();        
     },
 
     setup : function() {
 		carousel.config.$slider.detach();
 	  
-if(typeof images == "undefined") {
-		images = [
-			{ src: '/images/students/football.jpg' },
-			{ src: '/images/students/men_cross_country.jpg' },
-			{ src: '/images/students/men_jenson_street.jpg' },
-			{ src: '/images/students/poster_presentation.jpg' },
-			{ src: '/images/students/prarie_burn.jpg' },
-			{ src: '/images/students/tennis.jpg' },
-			{ src: '/images/students/tug_of_war.jpg' },
-			{ src: '/images/students/women_with_laptops.jpg'}
-		];	
-}
-else {
-	
-}
+		if(typeof images !== "undefined") {
+ 			var slideTemplate = '<li class="slide open"><img alt="" height="288" src="${src}" width="475" /><span></span></li> ';
+			$.tmpl( slideTemplate, images ).appendTo(carousel.config.$slider);
+		}
 
- 		var slideTemplate = '<li class="slide open"><img alt="" height="288" src="${src}" width="475" /><span></span></li> ';
-		$.tmpl( slideTemplate, images ).appendTo(carousel.config.$slider);
+
+
  		carousel.config.$items = carousel.config.$slider.find('> li');
 
 
@@ -177,15 +168,14 @@ $(document).ready(function() {
 	$("#search label").overlabel();
 	$(".emergency").effect("pulsate", { times:3 }, 2000);
         $("table").tablesorter();
-	$("a.cluetip_athlete").cluetip(
-		{local:true,
-		 cluetipClass: 'jtip',
-		 positionBy: 'auto',
-		 arrows: true,
-		 clickThrough: true,
-		 leftOffset: 0,
-		 topOffset: 20,
-		 waitImage: false});
+        $("a.cluetip_athlete").cluetip({
+                arrows: true,
+                cursor: 'pointer',
+                local: true,
+                clickThrough: true,
+                waitImage: false,
+                cluetipClass: 'jtip'
+        });
 });
 
 ( function( $ ) {

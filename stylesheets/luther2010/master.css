@@ -32,6 +32,7 @@ html.sports {
 body.sports {
  background:#8da1b4;
  background:#667788;
+ position: static;
 }
 /* \\\ HTML & Body /// */
 
@@ -194,7 +195,8 @@ body.sports {
 
 /* / Tables \ */
 .content-primary table {
- background:#FFF6F2;
+ /*background:#FFF6F2;*/
+ background:#FFFFFA;
  border:1px solid #999;
  border-collapse:collapse;
  margin-bottom:1.416666em;
@@ -1683,20 +1685,46 @@ body.sports #section-sign.blue h2 {
 }
 /* \ Figure Abstract / */
 
-
-aside.quote {
- color:#27699B;
- font-size:1.33333em;
+.sports aside.quote {
+ color: #191C45;
+ font-size:1em;
+ font-weight:normal; /* 12px */ /* pica */
+ line-height:1.5em; /* 18px/12px */
+ overflow: hidden;
+ padding:0;
+ text-align:left;
+ width: auto;
+}
+.sports aside.quote p {
+ background-image: -moz-linear-gradient(#99B7CE, #99B7CE);
+ background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#99B7CE), to(#99B7CE));
+ background-position: 10.75em 50%;
+ background-repeat: no-repeat;
+ background-size: 100% 1em;
+ font-size: 1.1666667em; /* 14px / 12px */
+ margin: 0;
+ padding: 0.785714285714286em 0; /* 11px / 14px */
+}
+.sports aside.quote p strong {
+ background:#fff;
+ color:#004788;
+ font-size:1em;
  font-weight:bold;
- line-height:1.6875em;
- margin:0 0 1.125em;
- padding:0 20px 0 6px;
- text-align:center;
+ height:1em;
+ line-height:1em;
+ margin:0;
+ padding: 0 5px 0 0;
+ text-transform:uppercase;
+} 
+.sports aside.quote li {
+ font-weight:bold;
 }
-aside.quote .break {
- display:block;	
+.sports aside.quote li:before {
+ content: "✓ ";
 }
-
+.sports aside.quote li a {
+ font-weight:bold;
+}
 
 /* /// Footer \\\ */
 #footer {
