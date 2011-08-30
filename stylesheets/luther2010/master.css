@@ -1097,7 +1097,7 @@ nav.button a:focus {
 }
 
 .style-home-01 .events .hfeed {
- float:left;	
+ /*float:left;*/	
  /*width:240px;*/
 }
 /* are both of these needed? */
@@ -2000,6 +2000,20 @@ img.athlete_image {
  padding: 0 7px 0 0;
 }
 
+img.video_streaming,
+img.audio_streaming {
+ float:right;
+ width: 14px;
+ height: 14px;
+ display: inline;
+ padding: 0 1px 0 1px;
+}
+.eventDetails img.video_streaming,
+.eventDetails img.audio_streaming {
+ width: 18px;
+ height: 18px;
+}
+
 /* \\\ Cluetip athlete tooltip /// */
 
 /* darker sports site test */
@@ -2066,7 +2080,7 @@ body.sports .content-secondary header.blue-stripe > h1 > span {
  background: #445566;
  color: #ffffff;
 }
-body.sports .events .vevent .summary,
+body.sports .events .vevent .summary a,
 body.sports .summary .location {
  color: #ffffff;
 }
