@@ -1024,6 +1024,7 @@ body.sports .contact-information p {
 .events .hfeed .vevent a:active,
 .events .hfeed .vevent a:focus {
  text-decoration: none;
+ color: #003580;
 }
 .events .vevent time.dtstart {
  float:left;
