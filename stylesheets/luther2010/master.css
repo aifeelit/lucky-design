@@ -1686,6 +1686,11 @@ body.sports #section-sign.blue h2 {
 }
 /* \ Figure Abstract / */
 
+aside.quote ul {
+ color:#004788;
+ list-style-type:circle;
+ margin: 0 0 15px 15px;
+}
 .sports aside.quote {
  color: #191C45;
  font-size:1em;
