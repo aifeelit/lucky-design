@@ -1791,6 +1791,7 @@ footer.site-info {
 
 /* \\\ Images /// */
 
+#av .video.fullsize iframe,
 #av .video.fullsize embed {
   border:1px solid silver;
   padding:3px;
